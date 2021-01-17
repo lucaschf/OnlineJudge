@@ -26,3 +26,7 @@ void Problem1116::solve() {
 string Problem1116::getName() {
     return "Dividing X by Y";
 }
+
+int Problem1116::getNumber() {
+    return 1116;
+}

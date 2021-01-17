@@ -17,3 +17,7 @@ void Problem1001::solve() {
 
     cout << "X = " << a + b << endl;
 }
+
+int Problem1001::getNumber() {
+    return 1001;
+}

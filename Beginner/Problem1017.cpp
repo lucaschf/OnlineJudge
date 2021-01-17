@@ -22,3 +22,7 @@ void Problem1017::solve() {
 string Problem1017::getName() {
     return "Fuel Spent";
 }
+
+int Problem1017::getNumber() {
+    return 1017;
+}

@@ -40,3 +40,7 @@ void Problem1047::solve() {
 string Problem1047::getName() {
     return "Game Time with Minutes";
 }
+
+int Problem1047::getNumber() {
+    return 1047;
+}

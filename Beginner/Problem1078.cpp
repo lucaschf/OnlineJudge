@@ -18,3 +18,7 @@ void Problem1078::solve() {
 string Problem1078::getName() {
     return "Multiplication Table";
 }
+
+int Problem1078::getNumber() {
+    return 1078;
+}

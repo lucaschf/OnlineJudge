@@ -29,3 +29,7 @@ void Problem1015::solve() {
 string Problem1015::getName() {
     return "Distance Between Two Points";
 }
+
+int Problem1015::getNumber() {
+    return 1015;
+}

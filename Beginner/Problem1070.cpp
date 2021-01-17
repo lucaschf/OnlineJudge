@@ -24,3 +24,7 @@ void Problem1070::solve() {
 string Problem1070::getName() {
     return "Six Odd Numbers";
 }
+
+int Problem1070::getNumber() {
+    return 1070;
+}

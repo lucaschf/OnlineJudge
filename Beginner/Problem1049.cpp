@@ -52,3 +52,7 @@ string get_animal(const string &classification, const string &animal_kingdom, co
 string Problem1049::getName() {
     return "Animal";
 }
+
+int Problem1049::getNumber() {
+    return 1049;
+}

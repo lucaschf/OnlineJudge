@@ -20,3 +20,7 @@ void Problem1073::solve() {
 string Problem1073::getName() {
     return "Even Square";
 }
+
+int Problem1073::getNumber() {
+    return 1073;
+}

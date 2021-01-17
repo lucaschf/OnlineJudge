@@ -14,3 +14,7 @@ void Problem1097::solve() {
 string Problem1097::getName() {
     return "Sequence IJ 3";
 }
+
+int Problem1097::getNumber() {
+    return 1097;
+}

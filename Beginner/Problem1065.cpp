@@ -23,3 +23,7 @@ void Problem1065::solve() {
 string Problem1065::getName() {
     return "Even Between five Numbers";
 }
+
+int Problem1065::getNumber() {
+    return 1065;
+}

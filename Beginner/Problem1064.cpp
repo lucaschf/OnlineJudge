@@ -30,3 +30,7 @@ void Problem1064::solve() {
 string Problem1064::getName() {
     return "Positives and Average";
 }
+
+int Problem1064::getNumber() {
+    return 1064;
+}

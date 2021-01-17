@@ -12,6 +12,9 @@ class Problem1012 : public Problem {
     void solve() override;
 
     string getName() override;
+
+public:
+    int getNumber() override;
 };
 
 

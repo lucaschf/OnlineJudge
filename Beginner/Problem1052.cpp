@@ -30,3 +30,7 @@ void Problem1052::solve() {
 string Problem1052::getName() {
     return "Month";
 }
+
+int Problem1052::getNumber() {
+    return 1052;
+}

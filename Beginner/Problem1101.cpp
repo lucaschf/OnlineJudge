@@ -34,3 +34,7 @@ void Problem1101::solve() {
 string Problem1101::getName() {
     return "Sequence of Numbers and Sum";
 }
+
+int Problem1101::getNumber() {
+    return 1101;
+}

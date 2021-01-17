@@ -17,3 +17,7 @@ void Problem1004::solve() {
 
     printf("PROD = %d\n", a * b);
 }
+
+int Problem1004::getNumber() {
+    return 1004;
+}

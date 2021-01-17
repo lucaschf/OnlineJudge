@@ -37,3 +37,7 @@ double read_score() {
 string Problem1117::getName() {
     return "Score Validation";
 }
+
+int Problem1117::getNumber() {
+    return 1117;
+}

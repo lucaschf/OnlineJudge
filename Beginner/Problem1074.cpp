@@ -26,3 +26,7 @@ void Problem1074::solve() {
 string Problem1074::getName() {
     return "Even or Odd";
 }
+
+int Problem1074::getNumber() {
+    return 1074;
+}

@@ -11,3 +11,7 @@ void Problem1061::solve() {
 string Problem1061::getName() {
     return "Event Time";
 }
+
+int Problem1061::getNumber() {
+    return 1061;
+}

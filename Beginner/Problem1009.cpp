@@ -24,3 +24,7 @@ void Problem1009::solve() {
 string Problem1009::getName() {
     return "Salary with Bonus";
 }
+
+int Problem1009::getNumber() {
+    return 1009;
+}

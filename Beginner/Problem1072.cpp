@@ -27,3 +27,7 @@ void Problem1072::solve() {
 string Problem1072::getName() {
     return "Interval 2";
 }
+
+int Problem1072::getNumber() {
+    return 1072;
+}

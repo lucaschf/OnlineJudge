@@ -26,3 +26,7 @@ void Problem1018::solve() {
 string Problem1018::getName() {
     return "Banknotes";
 }
+
+int Problem1018::getNumber() {
+    return 1018;
+}

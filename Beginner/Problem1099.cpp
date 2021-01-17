@@ -36,3 +36,7 @@ void Problem1099::solve() {
 string Problem1099::getName() {
     return "Sum of Consecutive Odd Numbers II";
 }
+
+int Problem1099::getNumber() {
+    return 1099;
+}

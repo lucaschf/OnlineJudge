@@ -16,3 +16,7 @@ void Problem1002::solve() {
 
     printf("A=%.4f\n", n * (r * r));
 }
+
+int Problem1002::getNumber() {
+    return 1002;
+}

@@ -29,3 +29,7 @@ void Problem1145::solve() {
 string Problem1145::getName() {
     return "Logical Sequence 2";
 }
+
+int Problem1145::getNumber() {
+    return 1145;
+}

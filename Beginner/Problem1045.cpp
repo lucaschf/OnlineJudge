@@ -58,3 +58,7 @@ void Problem1045::solve() {
 string Problem1045::getName() {
     return "Triangle Types";
 }
+
+int Problem1045::getNumber() {
+    return 1045;
+}

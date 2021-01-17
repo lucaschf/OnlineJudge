@@ -24,3 +24,7 @@ void Problem1046::solve() {
 string Problem1046::getName() {
     return "Game Time";
 }
+
+int Problem1046::getNumber() {
+    return 1046;
+}

@@ -23,3 +23,7 @@ void Problem1142::solve() {
 string Problem1142::getName() {
     return "PUM";
 }
+
+int Problem1142::getNumber() {
+    return 1142;
+}

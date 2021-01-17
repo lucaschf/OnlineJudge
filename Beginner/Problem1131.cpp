@@ -48,3 +48,7 @@ void Problem1131::solve() {
 string Problem1131::getName() {
     return "Grenais";
 }
+
+int Problem1131::getNumber() {
+    return 1131;
+}

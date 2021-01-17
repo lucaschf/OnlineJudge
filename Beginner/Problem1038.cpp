@@ -26,3 +26,7 @@ void Problem1038::solve() {
 string Problem1038::getName() {
     return "Snack";
 }
+
+int Problem1038::getNumber() {
+    return 1038;
+}

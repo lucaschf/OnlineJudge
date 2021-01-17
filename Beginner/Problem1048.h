@@ -12,6 +12,8 @@ class Problem1048 : public Problem {
 public:
     void solve() override;
 
+    int getNumber() override;
+
     string getName() override;
 };
 

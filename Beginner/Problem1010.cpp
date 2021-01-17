@@ -29,3 +29,7 @@ void Problem1010::solve() {
 string Problem1010::getName() {
     return "Simple Calculate";
 }
+
+int Problem1010::getNumber() {
+    return 1010;
+}

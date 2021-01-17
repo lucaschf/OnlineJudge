@@ -28,3 +28,7 @@ void Problem1133::solve() {
 string Problem1133::getName() {
     return "Rest of a Division";
 }
+
+int Problem1133::getNumber() {
+    return 1133;
+}

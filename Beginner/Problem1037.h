@@ -12,6 +12,8 @@ public:
     void solve() override;
 
     string getName() override;
+
+    int getNumber() override;
 };
 
 

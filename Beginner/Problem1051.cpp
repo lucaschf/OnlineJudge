@@ -28,3 +28,7 @@ void Problem1051::solve() {
 string Problem1051::getName() {
     return "Taxes";
 }
+
+int Problem1051::getNumber() {
+    return 1051;
+}

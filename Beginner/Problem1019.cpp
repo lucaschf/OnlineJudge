@@ -24,3 +24,7 @@ void Problem1019::solve() {
 string Problem1019::getName() {
     return "Time Conversion";
 }
+
+int Problem1019::getNumber() {
+    return 1019;
+}

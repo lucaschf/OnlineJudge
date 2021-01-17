@@ -19,3 +19,7 @@ void Problem1075::solve() {
 string Problem1075::getName() {
     return "Remaining 2";
 }
+
+int Problem1075::getNumber() {
+    return 1075;
+}

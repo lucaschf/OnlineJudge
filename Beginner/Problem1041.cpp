@@ -45,3 +45,7 @@ void Problem1041::solve() {
 string Problem1041::getName() {
     return "Coordinates of a Point";
 }
+
+int Problem1041::getNumber() {
+    return 1041;
+}

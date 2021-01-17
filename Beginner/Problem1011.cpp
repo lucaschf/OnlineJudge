@@ -18,3 +18,7 @@ void Problem1011::solve() {
 string Problem1011::getName() {
     return "Sphere";
 }
+
+int Problem1011::getNumber() {
+    return 1011;
+}

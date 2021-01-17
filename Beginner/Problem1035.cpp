@@ -34,3 +34,7 @@ void Problem1035::solve() {
 string Problem1035::getName() {
     return "Selection Test 1";
 }
+
+int Problem1035::getNumber() {
+    return 1035;
+}

@@ -25,3 +25,7 @@ void Problem1012::solve() {
 string Problem1012::getName() {
     return "Area";
 }
+
+int Problem1012::getNumber() {
+    return 1012;
+}

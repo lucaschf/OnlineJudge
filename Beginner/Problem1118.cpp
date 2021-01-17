@@ -38,3 +38,7 @@ void Problem1118::solve() {
 string Problem1118::getName() {
     return "Several Scores with Validation";
 }
+
+int Problem1118::getNumber() {
+    return 1118;
+}

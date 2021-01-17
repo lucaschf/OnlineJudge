@@ -32,3 +32,7 @@ void Problem1066::solve() {
 string Problem1066::getName() {
     return "Even, Odd, Positive and Negative";
 }
+
+int Problem1066::getNumber() {
+    return 1066;
+}

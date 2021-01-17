@@ -36,3 +36,7 @@ void Problem1042::solve() {
 string Problem1042::getName() {
     return "Simple Sort";
 }
+
+int Problem1042::getNumber() {
+    return 1042;
+}

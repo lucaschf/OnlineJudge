@@ -11,12 +11,10 @@
 using namespace std;
 
 int main() {
-
     const map<int, Problem *> beginner = BeginnerProblemsList().list();
+    const string message = "Enter the problem number or 0 to finish.";
 
     int chosen;
-
-    const string message = "Enter the problem number or 0 to finish.";
 
     cout << message << endl;
 
@@ -30,7 +28,7 @@ int main() {
         }
 
         auto problem = it->second;
-        cout << endl << problem->getName() << endl;
+        cout << endl << problem->getName() << " - " << problem->getUrl() << endl;
         problem->solve();
 
         cout << endl << message << endl;

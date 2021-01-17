@@ -13,3 +13,7 @@ void Problem1059::solve() {
 string Problem1059::getName() {
     return "Even Numbers";
 }
+
+int Problem1059::getNumber() {
+    return 1059;
+}

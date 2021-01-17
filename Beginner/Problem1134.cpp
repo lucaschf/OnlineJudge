@@ -44,3 +44,7 @@ void Problem1134::solve() {
 string Problem1134::getName() {
     return "Type of Fuel";
 }
+
+int Problem1134::getNumber() {
+    return 1134;
+}

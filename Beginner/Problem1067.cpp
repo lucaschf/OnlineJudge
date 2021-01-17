@@ -17,3 +17,7 @@ void Problem1067::solve() {
 string Problem1067::getName() {
     return "Odd Numbers";
 }
+
+int Problem1067::getNumber() {
+    return 1067;
+}

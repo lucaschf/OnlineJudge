@@ -32,3 +32,7 @@ string quadrant(int x, int y) {
 string Problem1115::getName() {
     return "Quadrant";
 }
+
+int Problem1115::getNumber() {
+    return 1115;
+}

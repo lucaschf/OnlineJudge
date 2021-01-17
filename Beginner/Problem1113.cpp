@@ -22,3 +22,7 @@ void Problem1113::solve() {
 string Problem1113::getName() {
     return "Ascending and Descending";
 }
+
+int Problem1113::getNumber() {
+    return 1113;
+}

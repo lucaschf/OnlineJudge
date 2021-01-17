@@ -31,3 +31,7 @@ void Problem1036::solve() {
 string Problem1036::getName() {
     return "Bhaskara's Formula";
 }
+
+int Problem1036::getNumber() {
+    return 1036;
+}

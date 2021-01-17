@@ -30,3 +30,7 @@ void Problem1132::solve() {
 string Problem1132::getName() {
     return "Multiples of 13";
 }
+
+int Problem1132::getNumber() {
+    return 1132;
+}

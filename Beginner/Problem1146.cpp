@@ -18,3 +18,7 @@ void Problem1146::solve() {
 string Problem1146::getName() {
     return "Growing Sequences";
 }
+
+int Problem1146::getNumber() {
+    return 1146;
+}

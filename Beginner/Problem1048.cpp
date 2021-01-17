@@ -39,3 +39,7 @@ int get_percentage(double salary) {
 string Problem1048::getName() {
     return "Salary Increase";
 }
+
+int Problem1048::getNumber() {
+    return 1048;
+}

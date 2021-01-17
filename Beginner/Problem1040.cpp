@@ -55,3 +55,7 @@ void Problem1040::solve() {
 string Problem1040::getName() {
     return "Average 3";
 }
+
+int Problem1040::getNumber() {
+    return 1040;
+}

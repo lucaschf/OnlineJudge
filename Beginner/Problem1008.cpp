@@ -19,3 +19,7 @@ void Problem1008::solve() {
 string Problem1008::getName() {
     return "Salary";
 }
+
+int Problem1008::getNumber() {
+    return 1008;
+}

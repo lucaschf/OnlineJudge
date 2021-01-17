@@ -22,3 +22,7 @@ void Problem1013::solve() {
 string Problem1013::getName() {
     return "The Greatest";
 }
+
+int Problem1013::getNumber() {
+    return 1013;
+}

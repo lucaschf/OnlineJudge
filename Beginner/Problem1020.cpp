@@ -24,3 +24,7 @@ void Problem1020::solve() {
 string Problem1020::getName() {
     return "Age in Days";
 }
+
+int Problem1020::getNumber() {
+    return 1020;
+}

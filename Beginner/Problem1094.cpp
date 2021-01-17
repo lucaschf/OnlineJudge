@@ -51,3 +51,7 @@ void Problem1094::solve() {
 string Problem1094::getName() {
     return "Experiments";
 }
+
+int Problem1094::getNumber() {
+    return 1094;
+}

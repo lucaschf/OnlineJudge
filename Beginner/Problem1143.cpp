@@ -30,3 +30,7 @@ void Problem1143::solve() {
 string Problem1143::getName() {
     return "Squared and Cubic";
 }
+
+int Problem1143::getNumber() {
+    return 1143;
+}

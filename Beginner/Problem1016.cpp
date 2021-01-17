@@ -15,3 +15,7 @@ void Problem1016::solve() {
 string Problem1016::getName() {
     return "Distance";
 }
+
+int Problem1016::getNumber() {
+    return 1016;
+}

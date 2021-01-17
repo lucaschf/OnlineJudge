@@ -32,3 +32,7 @@ void Problem1071::solve() {
 string Problem1071::getName() {
     return "Sum of Consecutive Odd Numbers I";
 }
+
+int Problem1071::getNumber() {
+    return 1071;
+}

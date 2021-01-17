@@ -17,3 +17,7 @@ void Problem1044::solve() {
 string Problem1044::getName() {
     return "Multiples";
 }
+
+int Problem1044::getNumber() {
+    return 1044;
+}

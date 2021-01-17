@@ -25,3 +25,7 @@ void Problem1080::solve() {
 string Problem1080::getName() {
     return "Highest and Position";
 }
+
+int Problem1080::getNumber() {
+    return 1080;
+}

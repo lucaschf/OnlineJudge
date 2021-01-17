@@ -13,6 +13,8 @@ public:
     string getName() override;
 
     void solve() override;
+
+    int getNumber() override;
 };
 
 

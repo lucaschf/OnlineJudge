@@ -41,3 +41,7 @@ void Problem1144::solve() {
 string Problem1144::getName() {
     return std::string();
 }
+
+int Problem1144::getNumber() {
+    return 1144;
+}

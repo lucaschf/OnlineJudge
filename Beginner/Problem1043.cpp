@@ -22,3 +22,7 @@ void Problem1043::solve() {
 string Problem1043::getName() {
     return "Triangle";
 }
+
+int Problem1043::getNumber() {
+    return 1043;
+}

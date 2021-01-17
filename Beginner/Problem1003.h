@@ -13,6 +13,8 @@ public:
     string getName() override;
 
     void solve() override;
+
+    int getNumber() override;
 };
 
 #endif //ONLINE_JUDGE_PROBLEM1003_H

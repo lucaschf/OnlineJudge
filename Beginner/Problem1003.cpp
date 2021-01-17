@@ -17,3 +17,7 @@ void Problem1003::solve() {
 
     printf("SOMA = %d\n", a + b);
 }
+
+int Problem1003::getNumber() {
+    return 1003;
+}

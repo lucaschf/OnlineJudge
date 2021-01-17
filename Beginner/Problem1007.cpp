@@ -21,3 +21,7 @@ void Problem1007::solve() {
 string Problem1007::getName() {
     return "Difference";
 }
+
+int Problem1007::getNumber() {
+    return 1007;
+}

@@ -38,3 +38,7 @@ void Problem1037::solve() {
 string Problem1037::getName() {
     return "Interval";
 }
+
+int Problem1037::getNumber() {
+    return 1037;
+}

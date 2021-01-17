@@ -82,3 +82,7 @@ void Problem1021::solve() {
 string Problem1021::getName() {
     return "Banknotes and Coins";
 }
+
+int Problem1021::getNumber() {
+    return 1021;
+}

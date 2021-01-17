@@ -23,3 +23,7 @@ void Problem1114::solve() {
 string Problem1114::getName() {
     return "Fixed Password";
 }
+
+int Problem1114::getNumber() {
+    return 1114;
+}

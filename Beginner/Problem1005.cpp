@@ -20,3 +20,7 @@ void Problem1005::solve() {
 
     printf("MEDIA = %.5f\n", (a * weightA + b * weightB) / (weightB + weightA));
 }
+
+int Problem1005::getNumber() {
+    return 1005;
+}

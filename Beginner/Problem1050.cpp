@@ -31,3 +31,7 @@ void Problem1050::solve() {
 string Problem1050::getName() {
     return "DDD";
 }
+
+int Problem1050::getNumber() {
+    return 1050;
+}

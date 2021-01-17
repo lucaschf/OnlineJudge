@@ -17,3 +17,7 @@ void Problem1014::solve() {
 string Problem1014::getName() {
     return "Consumption";
 }
+
+int Problem1014::getNumber() {
+    return 1014;
+}

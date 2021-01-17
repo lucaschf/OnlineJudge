@@ -30,3 +30,7 @@ void Problem1079::solve() {
 string Problem1079::getName() {
     return "Weighted Averages";
 }
+
+int Problem1079::getNumber() {
+    return 1079;
+}

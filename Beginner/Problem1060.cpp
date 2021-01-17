@@ -20,3 +20,7 @@ void Problem1060::solve() {
 string Problem1060::getName() {
     return "Positive Numbers";
 }
+
+int Problem1060::getNumber() {
+    return 1060;
+}
