@@ -29,3 +29,7 @@ void Problem1150::solve() {
 string Problem1150::getName() {
     return "Exceeding Z";
 }
+
+int Problem1150::getNumber() {
+    return 1150;
+}

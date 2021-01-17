@@ -25,3 +25,7 @@ void Problem1149::solve() {
 string Problem1149::getName() {
     return "Summing Consecutive Integers";
 }
+
+int Problem1149::getNumber() {
+    return 1149;
+}

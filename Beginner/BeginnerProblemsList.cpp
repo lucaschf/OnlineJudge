@@ -80,6 +80,29 @@
 #include "Problem1142.h"
 #include "Problem1146.h"
 #include "Problem1145.h"
+#include "Problem1150.h"
+#include "Problem1149.h"
+#include "Problem1151.h"
+#include "Problem1154.h"
+#include "Problem1153.h"
+#include "Problem1156.h"
+#include "Problem1155.h"
+#include "Problem1157.h"
+#include "Problem1158.h"
+#include "Problem1159.h"
+#include "Problem1160.h"
+#include "Problem1164.h"
+#include "Problem1165.h"
+#include "Problem1180.h"
+#include "Problem1181.h"
+#include "Problem1172.h"
+#include "Problem1173.h"
+#include "Problem1174.h"
+#include "Problem1175.h"
+#include "Problem1176.h"
+#include "Problem1177.h"
+#include "Problem1178.h"
+#include "Problem1179.h"
 
 map<int, Problem *> BeginnerProblemsList::list() {
     return map<int, Problem *>{
@@ -159,5 +182,28 @@ map<int, Problem *> BeginnerProblemsList::list() {
             {1144, new Problem1144()},
             {1145, new Problem1145()},
             {1146, new Problem1146()},
+            {1149, new Problem1149()},
+            {1150, new Problem1150()},
+            {1151, new Problem1151()},
+            {1153, new Problem1153()},
+            {1154, new Problem1154()},
+            {1155, new Problem1155()},
+            {1156, new Problem1156()},
+            {1157, new Problem1157()},
+            {1158, new Problem1158()},
+            {1159, new Problem1159()},
+            {1160, new Problem1160()},
+            {1164, new Problem1164()},
+            {1165, new Problem1165()},
+            {1172, new Problem1172()},
+            {1173, new Problem1173()},
+            {1174, new Problem1174()},
+            {1175, new Problem1175()},
+            {1176, new Problem1176()},
+            {1177, new Problem1177()},
+            {1178, new Problem1178()},
+            {1179, new Problem1179()},
+            {1180, new Problem1180()},
+            {1181, new Problem1181()}
     };
 }

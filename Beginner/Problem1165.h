@@ -2,13 +2,13 @@
 // Created by lucas on 01/17/2021.
 //
 
-#ifndef ONLINE_JUDGE_PROBLEM1149_H
-#define ONLINE_JUDGE_PROBLEM1149_H
+#ifndef ONLINE_JUDGE_PROBLEM1165_H
+#define ONLINE_JUDGE_PROBLEM1165_H
 
 
 #include "../Problem.h"
 
-class Problem1149 : public Problem {
+class Problem1165 : public Problem {
 public:
     void solve() override;
 
@@ -18,4 +18,4 @@ public:
 };
 
 
-#endif //ONLINE_JUDGE_PROBLEM1149_H
+#endif //ONLINE_JUDGE_PROBLEM1165_H
