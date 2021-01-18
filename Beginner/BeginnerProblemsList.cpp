@@ -106,6 +106,34 @@
 #include "Problem1866.h"
 #include "Problem1914.h"
 #include "Problem1924.h"
+#include "Problem1929.h"
+#include "Problem1930.h"
+#include "Problem1183.h"
+#include "Problem1184.h"
+#include "Problem1182.h"
+#include "Problem1185.h"
+#include "Problem1186.h"
+#include "Problem1187.h"
+#include "Problem1188.h"
+#include "Problem1189.h"
+#include "Problem1190.h"
+#include "Problem1435.h"
+#include "Problem1478.h"
+#include "Problem1534.h"
+#include "Problem1541.h"
+#include "Problem1557.h"
+#include "Problem1564.h"
+#include "Problem1589.h"
+#include "Problem1759.h"
+#include "Problem1789.h"
+#include "Problem1827.h"
+#include "Problem1828.h"
+#include "Problem1837.h"
+#include "Problem1847.h"
+#include "Problem1848.h"
+#include "Problem1858.h"
+#include "Problem1864.h"
+#include "Problem1865.h"
 
 map<int, Problem *> BeginnerProblemsList::list() {
     return map<int, Problem *>{
@@ -208,10 +236,36 @@ map<int, Problem *> BeginnerProblemsList::list() {
             {1179, new Problem1179()},
             {1180, new Problem1180()},
             {1181, new Problem1181()},
-
-
+            {1182, new Problem1182()},
+            {1183, new Problem1183()},
+            {1184, new Problem1184()},
+            {1185, new Problem1185()},
+            {1186, new Problem1186()},
+            {1187, new Problem1187()},
+            {1188, new Problem1188()},
+            {1189, new Problem1189()},
+            {1190, new Problem1190()},
+            {1435, new Problem1435()},
+            {1478, new Problem1478()},
+            {1534, new Problem1534()},
+            {1541, new Problem1541()},
+            {1557, new Problem1557()},
+            {1564, new Problem1564()},
+            {1589, new Problem1589()},
+            {1759, new Problem1759()},
+            {1789, new Problem1789()},
+            {1827, new Problem1827()},
+            {1828, new Problem1828()},
+            {1837, new Problem1837()},
+            {1847, new Problem1847()},
+            {1848, new Problem1848()},
+            {1858, new Problem1858()},
+            {1864, new Problem1864()},
+            {1865, new Problem1865()},
             {1866, new Problem1866()},
             {1914, new Problem1914()},
             {1924, new Problem1924()},
+            {1929, new Problem1929()},
+            {1930, new Problem1930()},
     };
 }
