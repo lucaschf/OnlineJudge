@@ -22,7 +22,7 @@ int main() {
         auto it = beginner.find(chosen);
 
         if (it == beginner.end()) {
-            cout << "Sorry, this problem does not exist or has not been solved yet." << endl << endl;
+            cout << "Sorry, solution not found. Try another one" << endl << endl;
             cout << message << endl;
             continue;
         }

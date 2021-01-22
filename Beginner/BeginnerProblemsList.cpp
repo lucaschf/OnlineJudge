@@ -134,6 +134,9 @@
 #include "Problem1858.h"
 #include "Problem1864.h"
 #include "Problem1865.h"
+#include "Problem1933.h"
+#include "Problem1957.h"
+#include "Problem1958.h"
 
 map<int, Problem *> BeginnerProblemsList::list() {
     return map<int, Problem *>{
@@ -267,5 +270,8 @@ map<int, Problem *> BeginnerProblemsList::list() {
             {1924, new Problem1924()},
             {1929, new Problem1929()},
             {1930, new Problem1930()},
+            {1933, new Problem1933()},
+            {1957, new Problem1957()},
+            {1958, new Problem1958()}
     };
 }
