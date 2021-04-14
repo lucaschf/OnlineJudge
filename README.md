@@ -9,3 +9,10 @@ won't be learning). I created this repository to solve the problems and I will m
 ## ❤️ Help other fellow developers
 
 Sharing is free but caring is priceless. So, feel free to share this repository with your friends.
+
+## Problems solved so far
+<ul>
+  
+  <li>Beginner 1001 - 1963</li>
+
+</ul>
