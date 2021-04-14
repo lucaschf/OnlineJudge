@@ -2,9 +2,11 @@
 // Created by lucas on 01/18/2021.
 //
 
-#include "Problem1435.h"
+#include <iostream>
 
-void Problem1435::solve() {
+using namespace std;
+
+int main() {
     int size;
     int greatest_element;
     int limit;
@@ -42,12 +44,6 @@ void Problem1435::solve() {
 
         cout << endl;
     }
-}
 
-string Problem1435::getName() {
-    return "Square Matrix I";
-}
-
-int Problem1435::getNumber() {
-    return 1435;
+    return 0;
 }

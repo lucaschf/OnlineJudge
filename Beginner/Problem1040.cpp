@@ -2,60 +2,56 @@
 // Created by lucas on 01/16/2021.
 //
 
-#include "Problem1040.h"
+#include <iostream>
 
-void Problem1040::solve() {
-    double score1;
-    double score2;
-    double score3;
-    double score4;
-    double exam_score;
+using namespace std;
 
-    const int weigh1 = 2;
-    const int weight2 = 3;
-    const int weight3 = 4;
-    const int weight4 = 1;
+int main() {
+	double score1;
+	double score2;
+	double score3;
+	double score4;
+	double exam_score;
 
-    cin >> score1;
-    cin >> score2;
-    cin >> score3;
-    cin >> score4;
+	const int weigh1 = 2;
+	const int weight2 = 3;
+	const int weight3 = 4;
+	const int weight4 = 1;
 
-    auto average = ((score1 * weigh1) + (score2 * weight2) + (score3 * weight3) + (score4 * weight4)) /
-                   (weigh1 + weight2 + weight3 + weight4);
+	cin >> score1;
+	cin >> score2;
+	cin >> score3;
+	cin >> score4;
 
-    printf("Media: %1.1f\n", average);
+	auto average = ((score1 * weigh1) + (score2 * weight2) + (score3 * weight3) + (score4 * weight4)) /
+		(weigh1 + weight2 + weight3 + weight4);
 
-    if (average >= 7) {
-        printf("Aluno aprovado.\n");
-        return;
-    }
+	printf("Media: %1.1f\n", average);
 
-    if (average < 5) {
-        printf("Aluno reprovado.\n");
-        return;
-    }
+	if (average >= 7) {
+		printf("Aluno aprovado.\n");
+		return;
+	}
 
-    cin >> exam_score;
+	if (average < 5) {
+		printf("Aluno reprovado.\n");
+		return;
+	}
 
-    printf("Aluno em exame.\n");
-    printf("Nota do exame: %1.1f\n", exam_score);
+	cin >> exam_score;
 
-    average = (average + exam_score) / 2;
+	printf("Aluno em exame.\n");
+	printf("Nota do exame: %1.1f\n", exam_score);
 
-    if (average < 5) {
-        printf("Aluno reprovado.\n");
-        return;
-    }
+	average = (average + exam_score) / 2;
 
-    printf("Aluno aprovado.\n");
-    printf("Media final: %1.1f\n", average);
-}
+	if (average < 5) {
+		printf("Aluno reprovado.\n");
+		return;
+	}
 
-string Problem1040::getName() {
-    return "Average 3";
-}
+	printf("Aluno aprovado.\n");
+	printf("Media final: %1.1f\n", average);
 
-int Problem1040::getNumber() {
-    return 1040;
+	return 0;
 }

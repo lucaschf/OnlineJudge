@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1066.h"
+#include <iostream>
 
-void Problem1066::solve() {
+using namespace std;
+
+int main() {
     const int count = 5;
     int even = 0;
     int odd = 0;
@@ -27,12 +29,6 @@ void Problem1066::solve() {
     printf("%d valor(es) impar(es)\n", odd);
     printf("%d valor(es) positivo(s)\n", positives);
     printf("%d valor(es) negativo(s)\n", negatives);
-}
 
-string Problem1066::getName() {
-    return "Even, Odd, Positive and Negative";
-}
-
-int Problem1066::getNumber() {
-    return 1066;
+    return 0;
 }

@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1866.h"
+#include <iostream>
 
-void Problem1866::solve() {
+using namespace std;
+
+int main() {
     int n;
     int elements;
     cin >> n;
@@ -13,12 +15,6 @@ void Problem1866::solve() {
         cin >> elements;
         cout << (elements % 2 != 0 ? 1 : 0) << endl;
     }
-}
 
-string Problem1866::getName() {
-    return "Bill";
-}
-
-int Problem1866::getNumber() {
-    return 1866;
+    return 0;
 }

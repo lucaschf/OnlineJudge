@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1070.h"
+#include <iostream>
 
-void Problem1070::solve() {
+using namespace std;
+
+int main() {
     const int quantity = 6;
     int n;
     int count = 0;
@@ -19,12 +21,6 @@ void Problem1070::solve() {
 
         n++;
     }
-}
 
-string Problem1070::getName() {
-    return "Six Odd Numbers";
-}
-
-int Problem1070::getNumber() {
-    return 1070;
+    return 0;
 }

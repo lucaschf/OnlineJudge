@@ -2,9 +2,12 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1046.h"
 
-void Problem1046::solve() {
+#include <iostream>
+
+using namespace std;
+
+int main() {
     int start_time;
     int end_time;
 
@@ -19,12 +22,6 @@ void Problem1046::solve() {
         time = end_time - start_time;
 
     printf("O JOGO DUROU %d HORA(S)\n", time);
-}
 
-string Problem1046::getName() {
-    return "Game Time";
-}
-
-int Problem1046::getNumber() {
-    return 1046;
+    return 0;
 }

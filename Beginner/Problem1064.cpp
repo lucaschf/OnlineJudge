@@ -2,35 +2,32 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1064.h"
 
-void Problem1064::solve() {
-    const int count = 6;
-    int positives = 0;
+#include <iostream>
 
-    double value;
-    double sum = 0;
-    double average = 0;
+using namespace std;
 
-    for (int i = 1; i <= count; i++) {
-        cin >> value;
+int main() {
+	const int count = 6;
+	int positives = 0;
 
-        if (value > 0) {
-            positives++;
-            sum += value;
-        }
-    }
+	double value;
+	double sum = 0;
+	double average = 0;
 
-    if (sum > 0)
-        average = sum / positives;
+	for (int i = 1; i <= count; i++) {
+		cin >> value;
 
-    printf("%d valores positivos\n%1.1f\n", positives, average);
-}
+		if (value > 0) {
+			positives++;
+			sum += value;
+		}
+	}
 
-string Problem1064::getName() {
-    return "Positives and Average";
-}
+	if (sum > 0)
+		average = sum / positives;
 
-int Problem1064::getNumber() {
-    return 1064;
+	printf("%d valores positivos\n%1.1f\n", positives, average);
+
+	return 0;
 }

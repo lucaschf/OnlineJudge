@@ -3,9 +3,11 @@
 //
 
 #include <iomanip>
-#include "Problem1185.h"
+#include <iostream>
 
-void Problem1185::solve() {
+using namespace std;
+
+int main() {
     const int size = 12;
     double arr[size][size];
     char operation;
@@ -32,12 +34,6 @@ void Problem1185::solve() {
     }
 
     cout << fixed << setprecision(1) << result << endl;
-}
 
-string Problem1185::getName() {
-    return "Above the Secundary Diagonal";
-}
-
-int Problem1185::getNumber() {
-    return 1185;
+    return 0;
 }

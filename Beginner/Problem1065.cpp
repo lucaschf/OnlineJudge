@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1065.h"
+#include <iostream>
 
-void Problem1065::solve() {
+using namespace std;
+
+int main() {
     const int count = 5;
     int even = 0;
 
@@ -18,12 +20,6 @@ void Problem1065::solve() {
     }
 
     printf("%d valores pares\n", even);
-}
 
-string Problem1065::getName() {
-    return "Even Between five Numbers";
-}
-
-int Problem1065::getNumber() {
-    return 1065;
+    return 0;
 }

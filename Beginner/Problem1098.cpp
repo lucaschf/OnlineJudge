@@ -2,22 +2,18 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1098.h"
+#include <iostream>
 
-void Problem1098::solve() {
-    double i = 0;
+using namespace std;
 
-    while (i <= 2) {
-        for (int j = 1; j <= 3; j++)
-            cout << "I=" << i << " J=" << j + i << endl;
-        i += .2;
-    }
-}
+int main() {
+	double i = 0;
 
-string Problem1098::getName() {
-    return "Sequence IJ 4";
-}
+	while (i <= 2) {
+		for (int j = 1; j <= 3; j++)
+			cout << "I=" << i << " J=" << j + i << endl;
+		i += .2;
+	}
 
-int Problem1098::getNumber() {
-    return 1098;
+	return 0;
 }

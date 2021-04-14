@@ -2,9 +2,11 @@
 // Created by lucas on 01/16/2021.
 //
 
-#include "Problem1017.h"
+#include <iostream>
 
-void Problem1017::solve() {
+using namespace std;
+
+int main() {
     const double kilometers_per_liter = 12;
 
     double spent_time;
@@ -17,12 +19,6 @@ void Problem1017::solve() {
     auto fuel_spent = distance / kilometers_per_liter;
 
     printf("%1.3f\n", fuel_spent);
-}
 
-string Problem1017::getName() {
-    return "Fuel Spent";
-}
-
-int Problem1017::getNumber() {
-    return 1017;
+    return 0;
 }

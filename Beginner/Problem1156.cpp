@@ -3,9 +3,11 @@
 //
 
 #include <iomanip>
-#include "Problem1156.h"
+#include <iostream>
 
-void Problem1156::solve() {
+using namespace std;
+
+int main() {
     double sum = 0;
     double denominator = 1;
 
@@ -15,12 +17,6 @@ void Problem1156::solve() {
     }
 
     cout << fixed << setprecision(2) << sum << endl;
-}
 
-string Problem1156::getName() {
-    return "S Sequence II";
-}
-
-int Problem1156::getNumber() {
-    return 1156;
+    return 0;
 }

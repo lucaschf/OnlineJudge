@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1145.h"
+#include <iostream>
 
-void Problem1145::solve() {
+using namespace std;
+
+int main() {
     int values;
     int columns;
 
@@ -24,12 +26,6 @@ void Problem1145::solve() {
 
         cout << i << " ";
     }
-}
 
-string Problem1145::getName() {
-    return "Logical Sequence 2";
-}
-
-int Problem1145::getNumber() {
-    return 1145;
+    return 0;
 }

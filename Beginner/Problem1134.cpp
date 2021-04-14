@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1134.h"
+#include <iostream>
 
-void Problem1134::solve() {
+using namespace std;
+
+int main() {
     enum fuel_type {
         alcohol = 1,
         gasoline = 2,
@@ -39,12 +41,6 @@ void Problem1134::solve() {
     cout << "Alcool: " << prefers_alcohol << endl;
     cout << "Gasolina: " << prefers_gasoline << endl;
     cout << "Diesel: " << prefers_diesel << endl;
-}
 
-string Problem1134::getName() {
-    return "Type of Fuel";
-}
-
-int Problem1134::getNumber() {
-    return 1134;
+    return 0;
 }

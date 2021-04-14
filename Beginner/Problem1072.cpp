@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1072.h"
+#include <iostream>
 
-void Problem1072::solve() {
+using namespace std;
+
+int main() {
     int n;
     int value;
     int in_range = 0;
@@ -22,12 +24,6 @@ void Problem1072::solve() {
     }
 
     cout << in_range << " in" << endl << out_of_range << " out" << endl;
-}
 
-string Problem1072::getName() {
-    return "Interval 2";
-}
-
-int Problem1072::getNumber() {
-    return 1072;
+    return 0;
 }

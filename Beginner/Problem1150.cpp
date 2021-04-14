@@ -2,9 +2,12 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1150.h"
 
-void Problem1150::solve() {
+#include <iostream>
+
+using namespace std;
+
+int main() {
     int x;
     int z;
 
@@ -24,12 +27,6 @@ void Problem1150::solve() {
     }
 
     cout << count << endl;
-}
 
-string Problem1150::getName() {
-    return "Exceeding Z";
-}
-
-int Problem1150::getNumber() {
-    return 1150;
+    return 0;
 }

@@ -2,9 +2,11 @@
 // Created by lucas on 01/20/2021.
 //
 
-#include "Problem1957.h"
+#include <iostream>
 
-void Problem1957::solve() {
+using namespace std;
+
+int main() {
     int decimal;
     string hexadecimal;
 
@@ -19,12 +21,6 @@ void Problem1957::solve() {
     }
 
     cout << hexadecimal << endl;
-}
 
-string Problem1957::getName() {
-    return "Converting to Hexadecimal";
-}
-
-int Problem1957::getNumber() {
-    return 1957;
+    return 0;
 }

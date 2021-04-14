@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1044.h"
+#include <iostream>
 
-void Problem1044::solve() {
+using namespace std;
+
+int main() {
     int a;
     int b;
 
@@ -12,12 +14,6 @@ void Problem1044::solve() {
     cin >> b;
 
     printf("%s\n", a % b == 0 || b % a == 0 ? "Sao Multiplos" : "Nao sao Multiplos");
-}
-
-string Problem1044::getName() {
-    return "Multiples";
-}
-
-int Problem1044::getNumber() {
-    return 1044;
+    
+    return 0;
 }

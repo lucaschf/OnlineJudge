@@ -2,20 +2,16 @@
 // Created by lucas on 01/16/2021.
 //
 
-#include "Problem1016.h"
+#include <iostream>
 
-void Problem1016::solve() {
+using namespace std;
+
+int main() {
     int distance;
 
     cin >> distance;
 
     printf("%d minutos\n", distance * 2);
-}
 
-string Problem1016::getName() {
-    return "Distance";
-}
-
-int Problem1016::getNumber() {
-    return 1016;
+    return 0;
 }

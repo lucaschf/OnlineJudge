@@ -2,9 +2,11 @@
 // Created by lucas on 01/16/2021.
 //
 
-#include "Problem1014.h"
+#include <iostream>
 
-void Problem1014::solve() {
+using namespace std;
+
+int main() {
     int traveled_distance;
     double fuel_spent;
 
@@ -12,12 +14,6 @@ void Problem1014::solve() {
     cin >> fuel_spent;
 
     printf("%1.3f km/l\n", traveled_distance / fuel_spent);
-}
 
-string Problem1014::getName() {
-    return "Consumption";
-}
-
-int Problem1014::getNumber() {
-    return 1014;
+    return 0;
 }

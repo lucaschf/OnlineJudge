@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1180.h"
+#include <iostream>
 
-void Problem1180::solve() {
+using namespace std;
+
+int main() {
     int capacity;
     int lowest;
     int position = 0;
@@ -27,12 +29,6 @@ void Problem1180::solve() {
 
     cout << "Menor valor: " << lowest << endl;
     cout << "Posicao: " << position << endl;
-}
 
-string Problem1180::getName() {
-    return "Lowest Number and Position";
-}
-
-int Problem1180::getNumber() {
-    return 1180;
+    return 0;
 }

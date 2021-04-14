@@ -2,9 +2,11 @@
 // Created by lucas on 01/18/2021.
 //
 
-#include "Problem1478.h"
+#include <iostream>
 
-void Problem1478::solve() {
+using namespace std;
+
+int main() {
     int size;
 
     while ((cin >> size) && (size != 0)) {
@@ -38,12 +40,6 @@ void Problem1478::solve() {
 
         cout << endl;
     }
-}
-
-string Problem1478::getName() {
-    return "Square Matrix II";
-}
-
-int Problem1478::getNumber() {
-    return 1478;
+    
+    return 0;
 }

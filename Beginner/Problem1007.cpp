@@ -2,9 +2,12 @@
 // Created by lucas on 01/16/2021.
 //
 
-#include "Problem1007.h"
 
-void Problem1007::solve() {
+#include <iostream>
+
+using namespace std;
+
+int main() {
     int a;
     int b;
     int c;
@@ -16,12 +19,6 @@ void Problem1007::solve() {
     cin >> d;
 
     printf("DIFERENCA = %d\n", (a * b) - (c * d));
-}
 
-string Problem1007::getName() {
-    return "Difference";
-}
-
-int Problem1007::getNumber() {
-    return 1007;
+    return 0;
 }

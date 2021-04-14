@@ -2,9 +2,11 @@
 // Created by lucas on 01/18/2021.
 //
 
-#include "Problem1837.h"
+#include <iostream>
 
-void Problem1837::solve() {
+using namespace std;
+
+int main() {
     int a;
     int b;
 
@@ -19,12 +21,6 @@ void Problem1837::solve() {
     auto q = (a - r) / b;
 
     cout << q << " " << r << endl;
-}
 
-string Problem1837::getName() {
-    return "Preface";
-}
-
-int Problem1837::getNumber() {
-    return 1837;
+    return 0;
 }

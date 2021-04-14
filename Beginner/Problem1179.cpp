@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1179.h"
+#include <iostream>
 
-void Problem1179::solve() {
+using namespace std;
+
+int main() {
     const int capacity = 5;
     const int must_read = 15;
 
@@ -45,12 +47,6 @@ void Problem1179::solve() {
 
     for (int j = 0; j < last_even_pos; j++)
         cout << "par[" << j << "] = " << even[j] << endl;
-}
 
-string Problem1179::getName() {
-    return "Array Fill IV";
-}
-
-int Problem1179::getNumber() {
-    return 1179;
+    return 0;
 }

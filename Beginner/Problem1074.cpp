@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1074.h"
+#include <iostream>
 
-void Problem1074::solve() {
+using namespace std;
+
+int main() {
     int n;
     int value;
 
@@ -21,12 +23,6 @@ void Problem1074::solve() {
             cout << endl;
         }
     }
-}
 
-string Problem1074::getName() {
-    return "Even or Odd";
-}
-
-int Problem1074::getNumber() {
-    return 1074;
+    return 0;
 }

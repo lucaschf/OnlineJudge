@@ -3,26 +3,22 @@
 //
 
 #include <iomanip>
-#include "Problem1174.h"
+#include <iostream>
 
-void Problem1174::solve() {
-    const int size = 100;
-    double arr[size];
+using namespace std;
 
-    for (double &i : arr) {
-        cin >> i;
-    }
+int main() {
+	const int size = 100;
+	double arr[size];
 
-    for (int i = 0; i < size; i++) {
-        if (arr[i] <= 10)
-            cout << fixed << setprecision(1) << "A[" << i << "] = " << arr[i] << endl;
-    }
-}
+	for (double& i : arr) {
+		cin >> i;
+	}
 
-string Problem1174::getName() {
-    return "Array Selection I";
-}
+	for (int i = 0; i < size; i++) {
+		if (arr[i] <= 10)
+			cout << fixed << setprecision(1) << "A[" << i << "] = " << arr[i] << endl;
+	}
 
-int Problem1174::getNumber() {
-    return 1174;
+	return 0;
 }

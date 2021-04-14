@@ -3,35 +3,31 @@
 //
 
 #include <cmath>
-#include "Problem1036.h"
+#include <iostream>
 
-void Problem1036::solve() {
-    double a;
-    double b;
-    double c;
+using namespace std;
 
-    cin >> a;
-    cin >> b;
-    cin >> c;
+int main() {
+	double a;
+	double b;
+	double c;
 
-    auto delta = pow(b, 2) - (4 * a * c);
+	cin >> a;
+	cin >> b;
+	cin >> c;
 
-    if (delta < 0 || a == 0) {
-        cout << "Impossivel calcular" << endl;
-        return;
-    }
+	auto delta = pow(b, 2) - (4 * a * c);
 
-    auto root1 = (-b + sqrt(delta)) / (2 * a);
-    auto root2 = (-b - sqrt(delta)) / (2 * a);
+	if (delta < 0 || a == 0) {
+		cout << "Impossivel calcular" << endl;
+		return;
+	}
 
-    printf("R1 = %1.5f\n", root1);
-    printf("R2 = %1.5f\n", root2);
-}
+	auto root1 = (-b + sqrt(delta)) / (2 * a);
+	auto root2 = (-b - sqrt(delta)) / (2 * a);
 
-string Problem1036::getName() {
-    return "Bhaskara's Formula";
-}
+	printf("R1 = %1.5f\n", root1);
+	printf("R2 = %1.5f\n", root2);
 
-int Problem1036::getNumber() {
-    return 1036;
+	return 0;
 }

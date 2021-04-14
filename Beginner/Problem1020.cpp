@@ -2,9 +2,11 @@
 // Created by lucas on 01/16/2021.
 //
 
-#include "Problem1020.h"
+#include <iostream>
 
-void Problem1020::solve() {
+using namespace std;
+
+int main() {
     const int days_in_year = 365;
     const int days_in_month = 30;
 
@@ -19,12 +21,6 @@ void Problem1020::solve() {
     days -= months * days_in_month;
 
     printf("%d ano(s)\n%d mes(es)\n%d dia(s)\n", years, months, days);
-}
-
-string Problem1020::getName() {
-    return "Age in Days";
-}
-
-int Problem1020::getNumber() {
-    return 1020;
+    
+    return 0;
 }

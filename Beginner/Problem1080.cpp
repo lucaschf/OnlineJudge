@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1080.h"
+#include <iostream>
 
-void Problem1080::solve() {
+using namespace std;
+
+int main() {
     const int quantity = 100;
     int position = 0;
     int highest = 0;
@@ -20,12 +22,6 @@ void Problem1080::solve() {
     }
 
     cout << highest << endl << position << endl;
-}
 
-string Problem1080::getName() {
-    return "Highest and Position";
-}
-
-int Problem1080::getNumber() {
-    return 1080;
+    return 0;
 }

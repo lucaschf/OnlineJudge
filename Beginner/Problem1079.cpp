@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1079.h"
+#include <iostream>
 
-void Problem1079::solve() {
+using namespace std;
+
+int main() {
     int n;
     double a;
     double b;
@@ -25,12 +27,6 @@ void Problem1079::solve() {
         average = ((a * weight_a) + (b * weight_b) + (c * weight_c)) / (weight_a + weight_b + weight_c);
         printf("%.1f\n", average);
     }
-}
 
-string Problem1079::getName() {
-    return "Weighted Averages";
-}
-
-int Problem1079::getNumber() {
-    return 1079;
+    return 0;
 }

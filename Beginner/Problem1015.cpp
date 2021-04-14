@@ -3,33 +3,29 @@
 //
 
 #include <cmath>
-#include "Problem1015.h"
+#include <iostream>
 
-void Problem1015::solve() {
-    double x1;
-    double y1;
+using namespace std;
 
-    double x2;
-    double y2;
+int main() {
+	double x1;
+	double y1;
 
-    cin >> x1;
-    cin >> y1;
+	double x2;
+	double y2;
 
-    cin >> x2;
-    cin >> y2;
+	cin >> x1;
+	cin >> y1;
 
-    auto x = pow((x2 - x1), 2);
-    auto y = pow((y2 - y1), 2);
+	cin >> x2;
+	cin >> y2;
 
-    auto distance = sqrt(x + y);
+	auto x = pow((x2 - x1), 2);
+	auto y = pow((y2 - y1), 2);
 
-    printf("%1.4f\n", distance);
-}
+	auto distance = sqrt(x + y);
 
-string Problem1015::getName() {
-    return "Distance Between Two Points";
-}
+	printf("%1.4f\n", distance);
 
-int Problem1015::getNumber() {
-    return 1015;
+	return 0;
 }

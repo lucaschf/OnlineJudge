@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1164.h"
+#include <iostream>
 
-void Problem1164::solve() {
+using namespace std;
+
+int main() {
     int count;
     int n;
     int sum;
@@ -26,12 +28,6 @@ void Problem1164::solve() {
 
         cout << n << (sum == n ? " eh perfeito" : " nao eh perfeito") << endl;
     }
-}
 
-string Problem1164::getName() {
-    return "Perfect Number";
-}
-
-int Problem1164::getNumber() {
-    return 1164;
+    return 0;
 }

@@ -2,11 +2,13 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1048.h"
+#include <iostream>
+
+using namespace std;
 
 int get_percentage(double salary);
 
-void Problem1048::solve() {
+int main() {
     double current_salary;
 
     cin >> current_salary;
@@ -18,6 +20,8 @@ void Problem1048::solve() {
     printf("Novo salario: %1.2f\n", updated_salary);
     printf("Reajuste ganho: %1.2f\n", adjustment_value);
     printf("Em percentual: %d %%\n", percentage);
+
+    return 0;
 }
 
 int get_percentage(double salary) {
@@ -34,12 +38,4 @@ int get_percentage(double salary) {
         return 7;
 
     return 4;
-}
-
-string Problem1048::getName() {
-    return "Salary Increase";
-}
-
-int Problem1048::getNumber() {
-    return 1048;
 }

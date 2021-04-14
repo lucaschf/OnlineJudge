@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1153.h"
+#include <iostream>
 
-void Problem1153::solve() {
+using namespace std;
+
+int main() {
     int number;
     int fat = 1;
 
@@ -15,12 +17,6 @@ void Problem1153::solve() {
     }
 
     cout << fat << endl;
-}
 
-string Problem1153::getName() {
-    return "Simple Factorial";
-}
-
-int Problem1153::getNumber() {
-    return 1153;
+    return 0;
 }

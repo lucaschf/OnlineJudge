@@ -2,9 +2,11 @@
 // Created by lucas on 01/25/2021.
 //
 
-#include "Problem1961.h"
+#include <iostream>
 
-void Problem1961::solve() {
+using namespace std;
+
+int main() {
     int jumpHeight;
     int pipesCount;
 
@@ -23,12 +25,6 @@ void Problem1961::solve() {
     }
 
     cout << "YOU WIN" << endl;
-}
 
-string Problem1961::getName() {
-    return "Jumping Frog";
-}
-
-int Problem1961::getNumber() {
-    return 1961;
+    return 0;
 }

@@ -2,9 +2,11 @@
 // Created by lucas on 01/18/2021.
 //
 
-#include "Problem1589.h"
+#include <iostream>
 
-void Problem1589::solve() {
+using namespace std;
+
+int main() {
     int count;
     int radius1;
     int radius2;
@@ -17,12 +19,6 @@ void Problem1589::solve() {
 
         cout << radius2 + radius1 << endl;
     }
-}
 
-string Problem1589::getName() {
-    return "Bob Conduit";
-}
-
-int Problem1589::getNumber() {
-    return 1589;
+    return 0;
 }

@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1101.h"
+#include <iostream>
 
-void Problem1101::solve() {
+using namespace std;
+
+int main() {
     int x;
     int y;
 
@@ -29,12 +31,6 @@ void Problem1101::solve() {
 
         cout << "Sum=" << sum << endl;
     }
-}
-
-string Problem1101::getName() {
-    return "Sequence of Numbers and Sum";
-}
-
-int Problem1101::getNumber() {
-    return 1101;
+    
+    return 0;
 }

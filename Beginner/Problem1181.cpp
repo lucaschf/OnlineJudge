@@ -3,38 +3,34 @@
 //
 
 #include <iomanip>
-#include "Problem1181.h"
+#include <iostream>
 
-void Problem1181::solve() {
-    const int size = 12;
-    double arr[size][size];
-    int line;
-    char operation;
-    double result = 0;
+using namespace std;
 
-    cin >> line;
-    cin >> operation;
+int main() {
+	const int size = 12;
+	double arr[size][size];
+	int line;
+	char operation;
+	double result = 0;
 
-    for (auto &i : arr) {
-        for (auto &j : i) {
-            cin >> j;
-        }
-    }
+	cin >> line;
+	cin >> operation;
 
-    for (int i = 0; i < size; i++)
-        result += arr[line][i];
+	for (auto& i : arr) {
+		for (auto& j : i) {
+			cin >> j;
+		}
+	}
 
-    if (operation == 'M') {
-        result /= size;
-    }
+	for (int i = 0; i < size; i++)
+		result += arr[line][i];
 
-    cout << fixed << setprecision(1) << result << endl;
-}
+	if (operation == 'M') {
+		result /= size;
+	}
 
-string Problem1181::getName() {
-    return "Line in Array";
-}
+	cout << fixed << setprecision(1) << result << endl;
 
-int Problem1181::getNumber() {
-    return 1181;
+	return 0;
 }

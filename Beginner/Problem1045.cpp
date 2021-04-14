@@ -2,7 +2,9 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1045.h"
+#include <iostream>
+
+using namespace std;
 
 template<typename T>
 void swap_if_lesser(T &a, T &b) {
@@ -20,7 +22,7 @@ void sort(T &a, T &b, T &c) {
     swap_if_lesser(b, c);
 }
 
-void Problem1045::solve() {
+int main() {
     double a;
     double b;
     double c;
@@ -53,12 +55,5 @@ void Problem1045::solve() {
     if (a == b && a != c || a == c && a != b || b == c && b != a)
         printf("TRIANGULO ISOSCELES\n");
 
-}
-
-string Problem1045::getName() {
-    return "Triangle Types";
-}
-
-int Problem1045::getNumber() {
-    return 1045;
+    return 0;
 }

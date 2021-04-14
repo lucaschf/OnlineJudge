@@ -2,45 +2,42 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1047.h"
 
-void Problem1047::solve() {
-    int start_hour;
-    int start_minutes;
-    int end_hour;
-    int end_minutes;
+#include <iostream>
 
-    cin >> start_hour;
-    cin >> start_minutes;
-    cin >> end_hour;
-    cin >> end_minutes;
+using namespace std;
 
-    int hours;
-    int minutes;
+int main() {
+	int start_hour;
+	int start_minutes;
+	int end_hour;
+	int end_minutes;
 
-    if (start_hour >= end_hour)
-        hours = (24 + end_hour) - start_hour;
-    else
-        hours = end_hour - start_hour;
+	cin >> start_hour;
+	cin >> start_minutes;
+	cin >> end_hour;
+	cin >> end_minutes;
 
-    minutes = end_minutes - start_minutes;
+	int hours;
+	int minutes;
 
-    if (minutes < 0) {
-        hours--;
+	if (start_hour >= end_hour)
+		hours = (24 + end_hour) - start_hour;
+	else
+		hours = end_hour - start_hour;
 
-        minutes += 60;
-    }
+	minutes = end_minutes - start_minutes;
 
-    if (minutes > 0 && hours == 24)
-        hours = 0;
+	if (minutes < 0) {
+		hours--;
 
-    printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n", hours, minutes);
-}
+		minutes += 60;
+	}
 
-string Problem1047::getName() {
-    return "Game Time with Minutes";
-}
+	if (minutes > 0 && hours == 24)
+		hours = 0;
 
-int Problem1047::getNumber() {
-    return 1047;
+	printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n", hours, minutes);
+
+	return 0;
 }

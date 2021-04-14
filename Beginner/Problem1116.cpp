@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1116.h"
+#include <iostream>
 
-void Problem1116::solve() {
+using namespace std;
+
+int main() {
     int x;
     int y;
     int n;
@@ -21,12 +23,6 @@ void Problem1116::solve() {
             cout << "divisao impossivel" << endl;
         }
     }
-}
 
-string Problem1116::getName() {
-    return "Dividing X by Y";
-}
-
-int Problem1116::getNumber() {
-    return 1116;
+    return 0;
 }

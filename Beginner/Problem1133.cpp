@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1133.h"
+#include <iostream>
 
-void Problem1133::solve() {
+using namespace std;
+
+int main() {
     int x;
     int y;
 
@@ -23,12 +25,6 @@ void Problem1133::solve() {
         if (rest == 2 || rest == 3)
             cout << x << endl;
     }
-}
 
-string Problem1133::getName() {
-    return "Rest of a Division";
-}
-
-int Problem1133::getNumber() {
-    return 1133;
+    return 0;
 }

@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1165.h"
+#include <iostream>
 
-void Problem1165::solve() {
+using namespace std;
+
+int main() {
     int count;
     int n;
 
@@ -23,12 +25,6 @@ void Problem1165::solve() {
 
         cout << n << (is_prime ? " eh primo" : " nao eh primo") << endl;
     }
-}
 
-string Problem1165::getName() {
-    return "Prime Number";
-}
-
-int Problem1165::getNumber() {
-    return 1165;
+    return 0;
 }

@@ -2,24 +2,18 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1075.h"
+#include <iostream>
 
-void Problem1075::solve() {
-    int n;
-    const int last = 10000;
+using namespace std;
 
-    cin >> n;
+int main() {
+	int n;
+	const int last = 10000;
 
-    for (int i = 1; i <= last; i++) {
-        if (i % n == 2)
-            cout << i << endl;
-    }
-}
+	cin >> n;
 
-string Problem1075::getName() {
-    return "Remaining 2";
-}
-
-int Problem1075::getNumber() {
-    return 1075;
+	for (int i = 1; i <= last; i++) {
+		if (i % n == 2)
+			cout << i << endl;
+	}
 }

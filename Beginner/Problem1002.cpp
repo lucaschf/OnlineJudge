@@ -2,21 +2,17 @@
 // Created by lucas on 01/16/2021.
 //
 
-#include "Problem1002.h"
+#include <iostream>
 
-string Problem1002::getName() {
-    return "Area of a circle";
-}
+using namespace std;
 
-void Problem1002::solve() {
+int main () {
     double n = 3.14159;
     double r;
 
     cin >> r;
 
     printf("A=%.4f\n", n * (r * r));
-}
-
-int Problem1002::getNumber() {
-    return 1002;
+	
+	return 0;
 }

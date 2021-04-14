@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1078.h"
+#include <iostream>
 
-void Problem1078::solve() {
+using namespace std;
+
+int main() {
     int n;
     const int table_size = 10;
 
@@ -13,12 +15,6 @@ void Problem1078::solve() {
     for (int i = 1; i <= table_size; i++) {
         cout << i << " x " << n << " = " << i * n << endl;
     }
-}
 
-string Problem1078::getName() {
-    return "Multiplication Table";
-}
-
-int Problem1078::getNumber() {
-    return 1078;
+    return 0;
 }

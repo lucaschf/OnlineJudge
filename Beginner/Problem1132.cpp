@@ -2,35 +2,31 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1132.h"
+#include <iostream>
 
-void Problem1132::solve() {
-    int x;
-    int y;
+using namespace std;
 
-    cin >> x;
-    cin >> y;
+int main() {
+	int x;
+	int y;
 
-    if (x > y) {
-        int aux = x;
+	cin >> x;
+	cin >> y;
 
-        x = y;
-        y = aux;
-    }
+	if (x > y) {
+		int aux = x;
 
-    int sum = 0;
-    for (; x <= y; x++) {
-        if (x % 13 != 0)
-            sum += x;
-    }
+		x = y;
+		y = aux;
+	}
 
-    cout << sum << endl;
-}
+	int sum = 0;
+	for (; x <= y; x++) {
+		if (x % 13 != 0)
+			sum += x;
+	}
 
-string Problem1132::getName() {
-    return "Multiples of 13";
-}
+	cout << sum << endl;
 
-int Problem1132::getNumber() {
-    return 1132;
+	return 0;
 }

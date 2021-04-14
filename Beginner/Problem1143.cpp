@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1143.h"
+#include <iostream>
 
-void Problem1143::solve() {
+using namespace std;
+
+int main() {
     int n;
 
     cin >> n;
@@ -25,12 +27,6 @@ void Problem1143::solve() {
 
         cout << endl;
     }
-}
 
-string Problem1143::getName() {
-    return "Squared and Cubic";
-}
-
-int Problem1143::getNumber() {
-    return 1143;
+    return 0;
 }

@@ -3,41 +3,37 @@
 //
 
 #include <iomanip>
-#include "Problem1184.h"
+#include <iostream>
 
-void Problem1184::solve() {
-    const int size = 12;
-    double arr[size][size];
-    char operation;
-    double result = 0;
-    int count = 0;
+using namespace std;
 
-    cin >> operation;
+int main() {
+	const int size = 12;
+	double arr[size][size];
+	char operation;
+	double result = 0;
+	int count = 0;
 
-    for (auto &i : arr) {
-        for (auto &j : i) {
-            cin >> j;
-        }
-    }
+	cin >> operation;
 
-    for (int i = 0; i < size; i++) {
-        for (int j = 0; j <= i - 1; j++) {
-            result += arr[i][j];
-            count++;
-        }
-    }
+	for (auto& i : arr) {
+		for (auto& j : i) {
+			cin >> j;
+		}
+	}
 
-    if (operation == 'M') {
-        result /= count;
-    }
+	for (int i = 0; i < size; i++) {
+		for (int j = 0; j <= i - 1; j++) {
+			result += arr[i][j];
+			count++;
+		}
+	}
 
-    cout << fixed << setprecision(1) << result << endl;
-}
+	if (operation == 'M') {
+		result /= count;
+	}
 
-string Problem1184::getName() {
-    return "Below the Main Diagonal";
-}
+	cout << fixed << setprecision(1) << result << endl;
 
-int Problem1184::getNumber() {
-    return 1184;
+	return 0;
 }

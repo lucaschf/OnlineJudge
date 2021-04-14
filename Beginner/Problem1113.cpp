@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1113.h"
+#include <iostream>
 
-void Problem1113::solve() {
+using namespace std;
+
+int main() {
     int x;
     int y;
 
@@ -17,12 +19,6 @@ void Problem1113::solve() {
 
         cout << (x > y ? "Decrescente" : "Crescente") << endl;
     }
-}
 
-string Problem1113::getName() {
-    return "Ascending and Descending";
-}
-
-int Problem1113::getNumber() {
-    return 1113;
+    return 0;
 }

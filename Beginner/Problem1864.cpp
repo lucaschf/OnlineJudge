@@ -2,25 +2,21 @@
 // Created by lucas on 01/18/2021.
 //
 
-#include "Problem1864.h"
+#include <iostream>
 
-void Problem1864::solve() {
-    string quote = "LIFE IS NOT A PROBLEM TO BE SOLVED, BUT A REALITY TO BE EXPERIENCED.";
+using namespace std;
 
-    int number;
-    cin >> number;
+int main() {
+	string quote = "LIFE IS NOT A PROBLEM TO BE SOLVED, BUT A REALITY TO BE EXPERIENCED.";
 
-    for (int i = 0; i < number; i++) {
-        cout << quote[i];
-    }
+	int number;
+	cin >> number;
 
-    cout << endl;
-}
+	for (int i = 0; i < number; i++) {
+		cout << quote[i];
+	}
 
-string Problem1864::getName() {
-    return "Our Days Are Never Coming Back";
-}
+	cout << endl;
 
-int Problem1864::getNumber() {
-    return 1864;
+	return 0;
 }

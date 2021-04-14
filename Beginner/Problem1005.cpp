@@ -2,25 +2,21 @@
 // Created by lucas on 01/16/2021.
 //
 
-#include "Problem1005.h"
+#include <iostream>
 
-string Problem1005::getName() {
-    return "Average 1";
-}
+using namespace std;
 
-void Problem1005::solve() {
-    float a;
-    float b;
+int main() {
+	float a;
+	float b;
 
-    double weightA = 3.5;
-    double weightB = 7.5;
+	double weightA = 3.5;
+	double weightB = 7.5;
 
-    cin >> a;
-    cin >> b;
+	cin >> a;
+	cin >> b;
 
-    printf("MEDIA = %.5f\n", (a * weightA + b * weightB) / (weightB + weightA));
-}
+	printf("MEDIA = %.5f\n", (a * weightA + b * weightB) / (weightB + weightA));
 
-int Problem1005::getNumber() {
-    return 1005;
+	return 0;
 }

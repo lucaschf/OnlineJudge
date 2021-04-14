@@ -2,35 +2,31 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1052.h"
 #include <map>
+#include <iostream>
 
-void Problem1052::solve() {
-    map<int, string> months = {
-            {1,  "January"},
-            {2,  "February"},
-            {3,  "March"},
-            {4,  "April"},
-            {5,  "May"},
-            {6,  "June"},
-            {7,  "July"},
-            {8,  "August"},
-            {9,  "September"},
-            {10, "October"},
-            {11, "November"},
-            {12, "December"}
-    };
+using namespace std;
 
-    int month;
-    cin >> month;
+int main() {
+	map<int, string> months = {
+			{1,  "January"},
+			{2,  "February"},
+			{3,  "March"},
+			{4,  "April"},
+			{5,  "May"},
+			{6,  "June"},
+			{7,  "July"},
+			{8,  "August"},
+			{9,  "September"},
+			{10, "October"},
+			{11, "November"},
+			{12, "December"}
+	};
 
-    cout << months.find(month)->second << endl;
-}
+	int month;
+	cin >> month;
 
-string Problem1052::getName() {
-    return "Month";
-}
+	cout << months.find(month)->second << endl;
 
-int Problem1052::getNumber() {
-    return 1052;
+	return 0;
 }

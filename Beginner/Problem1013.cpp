@@ -2,27 +2,23 @@
 // Created by lucas on 01/16/2021.
 //
 
-#include "Problem1013.h"
+#include <iostream>
 
-void Problem1013::solve() {
-    int a;
-    int b;
-    int c;
+using namespace std;
 
-    cin >> a;
-    cin >> b;
-    cin >> c;
+int main() {
+	int a;
+	int b;
+	int c;
 
-    int greatest = (a + b + abs(a - b)) / 2;
-    greatest = (greatest + c + abs(greatest - c)) / 2;
+	cin >> a;
+	cin >> b;
+	cin >> c;
 
-    printf("%d eh o maior\n", greatest);
-}
+	int greatest = (a + b + abs(a - b)) / 2;
+	greatest = (greatest + c + abs(greatest - c)) / 2;
 
-string Problem1013::getName() {
-    return "The Greatest";
-}
+	printf("%d eh o maior\n", greatest);
 
-int Problem1013::getNumber() {
-    return 1013;
+	return 0;
 }

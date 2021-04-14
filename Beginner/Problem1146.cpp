@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1146.h"
+#include <iostream>
 
-void Problem1146::solve() {
+using namespace std;
+
+int main() {
     int sequence_size;
 
     while ((cin >> sequence_size) && sequence_size != 0) {
@@ -13,12 +15,6 @@ void Problem1146::solve() {
             cout << (i == sequence_size ? "\n" : " ");
         }
     }
-}
 
-string Problem1146::getName() {
-    return "Growing Sequences";
-}
-
-int Problem1146::getNumber() {
-    return 1146;
+    return 0;
 }

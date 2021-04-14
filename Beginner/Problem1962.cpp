@@ -2,32 +2,28 @@
 // Created by lucas on 01/25/2021.
 //
 
-#include "Problem1962.h"
+#include <iostream>
 
-void Problem1962::solve() {
-    const int baseYear = 2015;
-    int lines;
-    int year;
-    int result;
+using namespace std;
 
-    cin >> lines;
+int main() {
+	const int baseYear = 2015;
+	int lines;
+	int year;
+	int result;
 
-    for (int i = 0; i < lines; i++) {
-        cin >> year;
+	cin >> lines;
 
-        if (baseYear == year)
-            result = 1;
-        else
-            result = baseYear < year ? abs(baseYear - 1 - year) : baseYear - year;
+	for (int i = 0; i < lines; i++) {
+		cin >> year;
 
-        cout << result << (baseYear <= year ? " A.C." : " D.C.") << endl;
-    }
-}
+		if (baseYear == year)
+			result = 1;
+		else
+			result = baseYear < year ? abs(baseYear - 1 - year) : baseYear - year;
 
-string Problem1962::getName() {
-    return "A Long, Long Time Ago";
-}
+		cout << result << (baseYear <= year ? " A.C." : " D.C.") << endl;
+	}
 
-int Problem1962::getNumber() {
-    return 1962;
+	return 0;
 }

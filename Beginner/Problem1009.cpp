@@ -2,9 +2,11 @@
 // Created by lucas on 01/16/2021.
 //
 
-#include "Problem1009.h"
+#include <iostream>
 
-void Problem1009::solve() {
+using namespace std;
+
+int main{
     const double percentage_over_sales = 15;
 
     string name;
@@ -19,12 +21,6 @@ void Problem1009::solve() {
     double amount_to_receive = salary + commission;
 
     printf("TOTAL = R$ %1.2f\n", amount_to_receive);
-}
-
-string Problem1009::getName() {
-    return "Salary with Bonus";
-}
-
-int Problem1009::getNumber() {
-    return 1009;
+    
+    return 0;
 }
