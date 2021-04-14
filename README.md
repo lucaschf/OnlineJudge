@@ -13,6 +13,6 @@ Sharing is free but caring is priceless. So, feel free to share this repository 
 ## Problems solved so far
 <ul>
   
-  <li>Beginner 1001 - 1963</li>
+  <li>Beginner 1001 - 1973</li>
 
 </ul>
