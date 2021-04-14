@@ -3,9 +3,11 @@
 //
 
 #include <iomanip>
-#include "Problem1155.h"
+#include <iostream>
 
-void Problem1155::solve() {
+using namespace std;
+
+int main() {
     double sum = 1;
 
     for (int i = 2; i <= 100; i++) {
@@ -13,12 +15,6 @@ void Problem1155::solve() {
     }
 
     cout << fixed << setprecision(2) << sum << endl;
-}
 
-string Problem1155::getName() {
-    return "S Sequence";
-}
-
-int Problem1155::getNumber() {
-    return 1155;
+    return 0;
 }

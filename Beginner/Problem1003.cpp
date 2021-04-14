@@ -2,13 +2,11 @@
 // Created by lucas on 01/16/2021.
 //
 
-#include "Problem1003.h"
+#include <iostream>
 
-string Problem1003::getName() {
-    return "Simple Sum";
-}
+using namespace std;
 
-void Problem1003::solve() {
+int main() {
     int a;
     int b;
 
@@ -16,8 +14,6 @@ void Problem1003::solve() {
     cin >> b;
 
     printf("SOMA = %d\n", a + b);
-}
 
-int Problem1003::getNumber() {
-    return 1003;
+    return 0;
 }

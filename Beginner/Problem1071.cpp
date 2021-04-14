@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1071.h"
+#include <iostream>
 
-void Problem1071::solve() {
+using namespace std;
+
+int main() {
     int x;
     int y;
 
@@ -27,12 +29,6 @@ void Problem1071::solve() {
     }
 
     cout << sum << endl;
-}
 
-string Problem1071::getName() {
-    return "Sum of Consecutive Odd Numbers I";
-}
-
-int Problem1071::getNumber() {
-    return 1071;
+    return 0;
 }

@@ -2,21 +2,17 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1095.h"
+#include <iostream>
 
-void Problem1095::solve() {
-    int i = 1;
-    int j = 60;
+using namespace std;
 
-    for (; j >= 0; j -= 5, i += 3) {
-        cout << "I=" << i << " J=" << j << endl;
-    }
-}
+int main() {
+	int i = 1;
+	int j = 60;
 
-string Problem1095::getName() {
-    return "Sequence IJ 1";
-}
+	for (; j >= 0; j -= 5, i += 3) {
+		cout << "I=" << i << " J=" << j << endl;
+	}
 
-int Problem1095::getNumber() {
-    return 1095;
+	return 0;
 }

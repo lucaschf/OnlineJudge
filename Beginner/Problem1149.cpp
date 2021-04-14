@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1149.h"
+#include <iostream>
 
-void Problem1149::solve() {
+using namespace std;
+
+int main() {
     int a;
     int n = 0;
 
@@ -20,12 +22,6 @@ void Problem1149::solve() {
         sum += a + i;
 
     cout << sum << endl;
-}
 
-string Problem1149::getName() {
-    return "Summing Consecutive Integers";
-}
-
-int Problem1149::getNumber() {
-    return 1149;
+    return 0;
 }

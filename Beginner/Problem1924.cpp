@@ -2,25 +2,21 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1924.h"
+#include <iostream>
 
-void Problem1924::solve() {
-    int numberOfCourses;
-    string course;
+using namespace std;
 
-    cin >> numberOfCourses;
+int main() {
+	int numberOfCourses;
+	string course;
 
-    for (int i = 0; i < numberOfCourses; i++) {
-        cin >> course;
-    }
+	cin >> numberOfCourses;
 
-    cout << "Ciencia da Computacao\n";
-}
+	for (int i = 0; i < numberOfCourses; i++) {
+		cin >> course;
+	}
 
-string Problem1924::getName() {
-    return "Vitoria and Her Indecision";
-}
+	cout << "Ciencia da Computacao\n";
 
-int Problem1924::getNumber() {
-    return 1924;
+	return 0;
 }

@@ -2,11 +2,12 @@
 // Created by lucas on 01/24/2021.
 //
 
-#include "Problem1960.h"
-
 #include <map>
+#include <iostream>
 
-void Problem1960::solve() {
+using namespace std;
+
+int main() {
     int number;
 
     map<int, string> romans = {
@@ -38,12 +39,6 @@ void Problem1960::solve() {
     }
 
     cout << endl;
-}
 
-string Problem1960::getName() {
-    return "Roman Numerals for Page Numbers";
-}
-
-int Problem1960::getNumber() {
-    return 1960;
+    return 0;
 }

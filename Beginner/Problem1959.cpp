@@ -3,20 +3,16 @@
 //
 
 #include <cmath>
-#include "Problem1959.h"
+#include <iostream>
 
-void Problem1959::solve() {
-    long long int number;
-    long long int length;
+using namespace std;
 
-    cin >> number >> length;
-    cout << (number * length) << endl;
-}
+int main() {
+	long long int number;
+	long long int length;
 
-string Problem1959::getName() {
-    return "Regular Simple Polygons";
-}
+	cin >> number >> length;
+	cout << (number * length) << endl;
 
-int Problem1959::getNumber() {
-    return 1959;
+	return 0;
 }

@@ -2,9 +2,12 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1099.h"
 
-void Problem1099::solve() {
+#include <iostream>
+
+using namespace std;
+
+int main() {
     int n;
     int x;
     int y;
@@ -31,12 +34,6 @@ void Problem1099::solve() {
 
         cout << sum << endl;
     }
-}
 
-string Problem1099::getName() {
-    return "Sum of Consecutive Odd Numbers II";
-}
-
-int Problem1099::getNumber() {
-    return 1099;
+    return 0;
 }

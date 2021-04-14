@@ -2,28 +2,23 @@
 // Created by lucas on 01/16/2021.
 //
 
-#include "Problem1006.h"
 
-string Problem1006::getName() {
-    return "Average 2";
-}
+#include <iostream>
 
-void Problem1006::solve() {
-    float a;
-    float b;
-    float c;
+using namespace std;
 
-    double weightA = 2;
-    double weightB = 3;
-    double weightC = 5;
+int main() {
+	float a;
+	float b;
+	float c;
 
-    cin >> a;
-    cin >> b;
-    cin >> c;
+	double weightA = 2;
+	double weightB = 3;
+	double weightC = 5;
 
-    printf("MEDIA = %.1f\n", (a * weightA + b * weightB + c * weightC) / (weightB + weightA + weightC));
-}
+	cin >> a;
+	cin >> b;
+	cin >> c;
 
-int Problem1006::getNumber() {
-    return 1006;
+	return 0;
 }

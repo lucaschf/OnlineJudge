@@ -2,9 +2,11 @@
 // Created by lucas on 01/18/2021.
 //
 
-#include "Problem1858.h"
+#include <iostream>
 
-void Problem1858::solve() {
+using namespace std;
+
+int main() {
     int number_of_persons;
 
     int guess;
@@ -26,12 +28,7 @@ void Problem1858::solve() {
     }
 
     cout << person_number << endl;
+
+    return 0;
 }
 
-string Problem1858::getName() {
-    return "Theon's Answer";
-}
-
-int Problem1858::getNumber() {
-    return 1858;
-}

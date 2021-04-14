@@ -2,43 +2,38 @@
 // Created by lucas on 01/16/2021.
 //
 
-#include "Problem1037.h"
+#include <iostream>
 
-void Problem1037::solve() {
-    double value;
+using namespace std;
 
-    cin >> value;
+int main() {
+	double value;
 
-    if (value < 0 || value > 100) {
-        cout << "Fora de intervalo" << endl;
-        return;
-    }
+	cin >> value;
 
-    cout << "Intervalo ";
+	if (value < 0 || value > 100) {
+		cout << "Fora de intervalo" << endl;
+		return;
+	}
 
-    if (value <= 25) {
-        cout << "[0,25]" << endl;
-        return;
-    }
+	cout << "Intervalo ";
 
-    if (value <= 50) {
-        cout << "(25,50]" << endl;
-        return;
-    }
+	if (value <= 25) {
+		cout << "[0,25]" << endl;
+		return;
+	}
 
-    if (value <= 75) {
-        cout << "(50,75]" << endl;
-        return;
-    }
+	if (value <= 50) {
+		cout << "(25,50]" << endl;
+		return;
+	}
 
-    cout << "(75,100]" << endl;
+	if (value <= 75) {
+		cout << "(50,75]" << endl;
+		return;
+	}
 
-}
+	cout << "(75,100]" << endl;
 
-string Problem1037::getName() {
-    return "Interval";
-}
-
-int Problem1037::getNumber() {
-    return 1037;
+	return 0;
 }

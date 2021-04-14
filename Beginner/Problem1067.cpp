@@ -2,9 +2,12 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1067.h"
 
-void Problem1067::solve() {
+#include <iostream>
+
+using namespace std;
+
+int main() {
     int n;
 
     cin >> n;
@@ -12,12 +15,6 @@ void Problem1067::solve() {
     for (int i = 1; i <= n; i++)
         if (i % 2 != 0)
             cout << i << endl;
-}
 
-string Problem1067::getName() {
-    return "Odd Numbers";
-}
-
-int Problem1067::getNumber() {
-    return 1067;
+    return 0;
 }

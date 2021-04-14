@@ -2,9 +2,11 @@
 // Created by lucas on 01/18/2021.
 //
 
-#include "Problem1534.h"
+#include <iostream>
 
-void Problem1534::solve() {
+using namespace std;
+
+int main() {
     int size;
 
     while (cin >> size && !cin.eof()) {
@@ -29,12 +31,6 @@ void Problem1534::solve() {
             cout << endl;
         }
     }
-}
 
-string Problem1534::getName() {
-    return "Array 123";
-}
-
-int Problem1534::getNumber() {
-    return 1534;
+    return 0;
 }

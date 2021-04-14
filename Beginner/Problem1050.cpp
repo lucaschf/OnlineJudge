@@ -2,10 +2,12 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1050.h"
 #include <map>
+#include <iostream>
 
-void Problem1050::solve() {
+using namespace std;
+
+int main() {
     map<int, string> destinations = {
             {61, "Brasilia"},
             {71, "Salvador"},
@@ -26,12 +28,6 @@ void Problem1050::solve() {
         cout << "DDD nao cadastrado" << endl;
     else
         cout << destination->second << endl;
-}
 
-string Problem1050::getName() {
-    return "DDD";
-}
-
-int Problem1050::getNumber() {
-    return 1050;
+    return 0;
 }

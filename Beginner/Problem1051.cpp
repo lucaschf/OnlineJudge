@@ -2,33 +2,30 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1051.h"
 
-void Problem1051::solve() {
-    double salary;
-    double taxes;
+#include <iostream>
 
-    cin >> salary;
+using namespace std;
 
-    if (salary <= 2000) {
-        cout << "Isento" << endl;
-        return;
-    }
+int main() {
+	double salary;
+	double taxes;
 
-    if (salary > 2000 && salary <= 3000)
-        taxes = (salary - 2000) * 0.08;
-    else if (salary > 3000 && salary < 4500)
-        taxes = (salary - 3000) * 0.18 + (1000 * 0.08);
-    else
-        taxes = (salary - 4500) * 0.28 + (1500) * 0.18 + 1000 * 0.08;
+	cin >> salary;
 
-    printf("R$ %1.2f\n", taxes);
-}
+	if (salary <= 2000) {
+		cout << "Isento" << endl;
+		return;
+	}
 
-string Problem1051::getName() {
-    return "Taxes";
-}
+	if (salary > 2000 && salary <= 3000)
+		taxes = (salary - 2000) * 0.08;
+	else if (salary > 3000 && salary < 4500)
+		taxes = (salary - 3000) * 0.18 + (1000 * 0.08);
+	else
+		taxes = (salary - 4500) * 0.28 + (1500) * 0.18 + 1000 * 0.08;
 
-int Problem1051::getNumber() {
-    return 1051;
+	printf("R$ %1.2f\n", taxes);
+
+	return 0;
 }

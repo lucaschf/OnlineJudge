@@ -2,19 +2,15 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1096.h"
+#include <iostream>
 
-void Problem1096::solve() {
-    for (int i = 1; i < 10; i += 2) {
-        for (int j = 7; j > 4; j--)
-            cout << "I=" << i << " J=" << j << endl;
-    }
-}
+using namespace std;
 
-string Problem1096::getName() {
-    return "Sequence IJ 2";
-}
+int main() {
+	for (int i = 1; i < 10; i += 2) {
+		for (int j = 7; j > 4; j--)
+			cout << "I=" << i << " J=" << j << endl;
+	}
 
-int Problem1096::getNumber() {
-    return 1096;
+	return 0;
 }

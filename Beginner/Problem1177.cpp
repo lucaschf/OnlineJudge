@@ -1,10 +1,11 @@
 //
 // Created by lucas on 01/17/2021.
 //
+#include <iostream>
 
-#include "Problem1177.h"
+using namespace std;
 
-void Problem1177::solve() {
+int main() {
     const int size = 1000;
     int arr[size];
     int biggest;
@@ -21,12 +22,6 @@ void Problem1177::solve() {
     for (int i = 0; i < size; i++) {
         cout << "N[" << i << "] = " << arr[i] << endl;
     }
-}
 
-string Problem1177::getName() {
-    return "Array Fill II";
-}
-
-int Problem1177::getNumber() {
-    return 1177;
+    return 0;
 }

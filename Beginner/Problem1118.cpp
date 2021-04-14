@@ -3,9 +3,11 @@
 //
 
 #include <iomanip>
-#include "Problem1118.h"
+#include <iostream>
 
-void Problem1118::solve() {
+using namespace std;
+
+int main() {
     double score_1 = 11;
     double score_2 = 11;
 
@@ -33,12 +35,6 @@ void Problem1118::solve() {
             cin >> new_calculation_response;
         } while (new_calculation_response != 1 && new_calculation_response != 2);
     }
-}
 
-string Problem1118::getName() {
-    return "Several Scores with Validation";
-}
-
-int Problem1118::getNumber() {
-    return 1118;
+    return 0;
 }

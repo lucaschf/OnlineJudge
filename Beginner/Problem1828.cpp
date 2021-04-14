@@ -4,9 +4,11 @@
 
 #include <vector>
 #include <map>
-#include "Problem1828.h"
+#include <iostream>
 
-void Problem1828::solve() {
+using namespace std;
+
+int main() {
     int times_played;
     string sheldon_choice;
     string raj_choice;
@@ -42,12 +44,6 @@ void Problem1828::solve() {
 
         cout << result << endl;
     }
-}
 
-string Problem1828::getName() {
-    return "Bazinga!";
-}
-
-int Problem1828::getNumber() {
-    return 1828;
+    return 0;
 }

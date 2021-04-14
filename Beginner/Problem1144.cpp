@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1144.h"
+#include <iostream>
 
-void Problem1144::solve() {
+using namespace std;
+
+int main() {
     int n;
 
     cin >> n;
@@ -36,12 +38,6 @@ void Problem1144::solve() {
 
         cout << endl;
     }
-}
-
-string Problem1144::getName() {
-    return std::string();
-}
-
-int Problem1144::getNumber() {
-    return 1144;
+    
+    return 0;
 }

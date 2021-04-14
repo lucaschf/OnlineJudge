@@ -2,25 +2,20 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1073.h"
-
 #include <cmath>
 #include <iomanip>
+#include <iostream>
 
-void Problem1073::solve() {
-    int n;
+using namespace std;
 
-    cin >> n;
+int main() {
+	int n;
 
-    for (int i = 2; i <= n; i += 2) {
-        cout << std::fixed << setprecision(0) << i << "^" << 2 << " = " << pow(i, 2) << endl;
-    }
-}
+	cin >> n;
 
-string Problem1073::getName() {
-    return "Even Square";
-}
+	for (int i = 2; i <= n; i += 2) {
+		cout << std::fixed << setprecision(0) << i << "^" << 2 << " = " << pow(i, 2) << endl;
+	}
 
-int Problem1073::getNumber() {
-    return 1073;
+	return 0;
 }

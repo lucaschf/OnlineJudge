@@ -2,9 +2,11 @@
 // Created by lucas on 01/16/2021.
 //
 
-#include "Problem1018.h"
+#include <iostream>
 
-void Problem1018::solve() {
+using namespace std;
+
+int main(){
     const int banknote_values[] = {100, 50, 20, 10, 5, 2, 1};
     int requested;
 
@@ -21,12 +23,6 @@ void Problem1018::solve() {
 
         cout << quantity << " nota(s) de R$ " << banknote_value << ",00" << endl;
     }
-}
 
-string Problem1018::getName() {
-    return "Banknotes";
-}
-
-int Problem1018::getNumber() {
-    return 1018;
+    return 0;
 }

@@ -2,7 +2,11 @@
 // Created by lucas on 01/16/2021.
 //
 
-#include "Problem1021.h"
+
+#include <iostream>
+
+using namespace std;
+
 #include <map>
 #include <array>
 #include <decimal/decimal>
@@ -73,16 +77,10 @@ void performWithdrawal(decimal::decimal64 value) {
     showResult(coin, coinsWithDrawn);
 }
 
-void Problem1021::solve() {
+int main() {
     double value;
     cin >> value;
     performWithdrawal(decimal::decimal64(value));
-}
 
-string Problem1021::getName() {
-    return "Banknotes and Coins";
-}
-
-int Problem1021::getNumber() {
-    return 1021;
+    return 0;
 }

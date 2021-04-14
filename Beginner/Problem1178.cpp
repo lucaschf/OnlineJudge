@@ -3,27 +3,23 @@
 //
 
 #include <iomanip>
-#include "Problem1178.h"
+#include <iostream>
 
-void Problem1178::solve() {
-    const int size = 100;
-    double arr[size];
+using namespace std;
 
-    cin >> arr[0];
+int main() {
+	const int size = 100;
+	double arr[size];
 
-    for (int i = 1; i < size; i++) {
-        arr[i] = arr[i - 1] / 2;
-    }
+	cin >> arr[0];
 
-    for (int i = 0; i < size; i++) {
-        cout << fixed << setprecision(4) << "N[" << i << "] = " << arr[i] << endl;
-    }
-}
+	for (int i = 1; i < size; i++) {
+		arr[i] = arr[i - 1] / 2;
+	}
 
-string Problem1178::getName() {
-    return "Array Fill III";
-}
-
-int Problem1178::getNumber() {
-    return 1178;
+	for (int i = 0; i < size; i++) {
+		cout << fixed << setprecision(4) << "N[" << i << "] = " << arr[i] << endl;
+	}  
+	
+	return 0;
 }

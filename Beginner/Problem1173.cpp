@@ -2,29 +2,25 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1173.h"
+#include <iostream>
 
-void Problem1173::solve() {
-    const int size = 10;
-    int n;
-    int arr[size];
+using namespace std;
 
-    cin >> n;
+int main() {
+	const int size = 10;
+	int n;
+	int arr[size];
 
-    arr[0] = n;
-    for (int i = 1; i < size; i++) {
-        arr[i] = arr[i - 1] * 2;
-    }
+	cin >> n;
 
-    for (int i = 0; i < size; i++) {
-        cout << "N[" << i << "] = " << arr[i] << endl;
-    }
-}
+	arr[0] = n;
+	for (int i = 1; i < size; i++) {
+		arr[i] = arr[i - 1] * 2;
+	}
 
-string Problem1173::getName() {
-    return "Array fill I";
-}
+	for (int i = 0; i < size; i++) {
+		cout << "N[" << i << "] = " << arr[i] << endl;
+	}
 
-int Problem1173::getNumber() {
-    return 1173;
+	return 0;
 }

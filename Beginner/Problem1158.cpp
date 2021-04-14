@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1158.h"
+#include <iostream>
 
-void Problem1158::solve() {
+using namespace std;
+
+int main() {
     int n;
     int x;
     int y;
@@ -29,12 +31,6 @@ void Problem1158::solve() {
 
         cout << sum << endl;
     }
-}
 
-string Problem1158::getName() {
-    return "Sum of Consecutive Odd Numbers III";
-}
-
-int Problem1158::getNumber() {
-    return 1158;
+    return 0;
 }

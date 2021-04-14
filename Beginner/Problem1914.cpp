@@ -2,7 +2,9 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1914.h"
+#include <iostream>
+
+using namespace std;
 
 typedef struct Player {
     string name;
@@ -10,7 +12,7 @@ typedef struct Player {
     int number = 0;
 } Player;
 
-void Problem1914::solve() {
+int main() {
     const string ODD = "IMPAR";
     const string EVEN = "PAR";
 
@@ -35,12 +37,6 @@ void Problem1914::solve() {
         result = (player2.number + player1.number) % 2 == 0 ? EVEN : ODD;
         cout << (player1.choice == result ? player1 : player2).name << endl;
     }
-}
 
-string Problem1914::getName() {
-    return "Whose Turn Is It?";
-}
-
-int Problem1914::getNumber() {
-    return 1914;
+    return 0;
 }

@@ -3,9 +3,11 @@
 //
 
 #include <iomanip>
-#include "Problem1154.h"
+#include <iostream>
 
-void Problem1154::solve() {
+using namespace std;
+
+int main() {
     int age;
     int count = 0;
     double sum = 0;
@@ -21,12 +23,6 @@ void Problem1154::solve() {
     double average = sum / count;
 
     cout << fixed << setprecision(2) << average << endl;
-}
 
-string Problem1154::getName() {
-    return "Ages";
-}
-
-int Problem1154::getNumber() {
-    return 1154;
+    return 0;
 }

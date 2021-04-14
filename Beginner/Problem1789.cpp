@@ -2,35 +2,31 @@
 // Created by lucas on 01/18/2021.
 //
 
-#include "Problem1789.h"
+#include <iostream>
 
-void Problem1789::solve() {
-    int count;
-    int fastest;
-    int slug;
+using namespace std;
 
-    while (cin >> count && !cin.eof()) {
-        fastest = 0;
+int main() {
+	int count;
+	int fastest;
+	int slug;
 
-        for (int i = 0; i < count; i++) {
-            cin >> slug;
-            if (slug > fastest)
-                fastest = slug;
-        }
+	while (cin >> count && !cin.eof()) {
+		fastest = 0;
 
-        if (fastest >= 20) {
-            cout << 3 << endl;
-            continue;
-        }
+		for (int i = 0; i < count; i++) {
+			cin >> slug;
+			if (slug > fastest)
+				fastest = slug;
+		}
 
-        cout << (fastest < 10 ? 1 : 2) << endl;
-    }
-}
+		if (fastest >= 20) {
+			cout << 3 << endl;
+			continue;
+		}
 
-string Problem1789::getName() {
-    return "The Race of Slugs";
-}
+		cout << (fastest < 10 ? 1 : 2) << endl;
+	}
 
-int Problem1789::getNumber() {
-    return 1789;
+	return 0;
 }

@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1114.h"
+#include <iostream>
 
-void Problem1114::solve() {
+using namespace std;
+
+int main() {
     const int valid_password = 2002;
     int inserted;
 
@@ -18,12 +20,6 @@ void Problem1114::solve() {
 
         cout << "Senha Invalida" << endl;
     }
-}
 
-string Problem1114::getName() {
-    return "Fixed Password";
-}
-
-int Problem1114::getNumber() {
-    return 1114;
+    return 0;
 }

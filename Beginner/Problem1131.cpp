@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1131.h"
+#include <iostream>
 
-void Problem1131::solve() {
+using namespace std;
+
+int main() {
     int gremio;
     int inter;
 
@@ -43,12 +45,6 @@ void Problem1131::solve() {
         cout << "Não houve vencedor" << endl;
     else
         cout << (inter_victories > gremio_victories ? "Inter venceu mais" : "Inter Gremio mais") << endl;
-}
 
-string Problem1131::getName() {
-    return "Grenais";
-}
-
-int Problem1131::getNumber() {
-    return 1131;
+    return 0;
 }

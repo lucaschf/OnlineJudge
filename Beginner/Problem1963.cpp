@@ -3,24 +3,20 @@
 //
 
 #include <iomanip>
-#include "Problem1963.h"
+#include <iostream>
 
-void Problem1963::solve() {
-    double startingValue;
-    double endValue;
+using namespace std;
 
-    cin >> startingValue >> endValue;
+int main() {
+	double startingValue;
+	double endValue;
 
-    double sizeIncrease = endValue - startingValue;
-    double percentageIncrease = (sizeIncrease / startingValue) * 100.0;
+	cin >> startingValue >> endValue;
 
-    cout << fixed << setprecision(2) << percentageIncrease << "%" << endl;
-}
+	double sizeIncrease = endValue - startingValue;
+	double percentageIncrease = (sizeIncrease / startingValue) * 100.0;
 
-string Problem1963::getName() {
-    return "The Motion Picture";
-}
+	cout << fixed << setprecision(2) << percentageIncrease << "%" << endl;
 
-int Problem1963::getNumber() {
-    return 1963;
+	return 0;
 }

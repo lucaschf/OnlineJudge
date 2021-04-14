@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1060.h"
+#include <iostream>
 
-void Problem1060::solve() {
+using namespace std;
+
+int main() {
     double number;
     int positives = 0;
 
@@ -15,12 +17,6 @@ void Problem1060::solve() {
     }
 
     cout << positives << " valores positivos" << endl;
-}
 
-string Problem1060::getName() {
-    return "Positive Numbers";
-}
-
-int Problem1060::getNumber() {
-    return 1060;
+    return 0;
 }

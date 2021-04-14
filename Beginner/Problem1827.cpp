@@ -2,9 +2,11 @@
 // Created by lucas on 01/18/2021.
 //
 
-#include "Problem1827.h"
+#include <iostream>
 
-void Problem1827::solve() {
+using namespace std;
+
+int main() {
     int size;
 
     while (cin >> size && !cin.eof()) {
@@ -38,12 +40,6 @@ void Problem1827::solve() {
 
         cout << endl;
     }
-}
 
-string Problem1827::getName() {
-    return "Square Array IV";
-}
-
-int Problem1827::getNumber() {
-    return 1827;
+    return 0;
 }

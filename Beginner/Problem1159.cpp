@@ -2,35 +2,31 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1159.h"
+#include <iostream>
 
-void Problem1159::solve() {
-    int x;
+using namespace std;
 
-    cin >> x;
+int main() {
+	int x;
 
-    while (x != 0) {
-        int sum = 0;
-        int added = 0;
+	cin >> x;
 
-        while (added < 5) {
-            if (x % 2 == 0) {
-                added++;
-                sum += x;
-            }
+	while (x != 0) {
+		int sum = 0;
+		int added = 0;
 
-            x += 1;
-        }
+		while (added < 5) {
+			if (x % 2 == 0) {
+				added++;
+				sum += x;
+			}
 
-        cout << sum << endl;
-        cin >> x;
-    }
-}
+			x += 1;
+		}
 
-string Problem1159::getName() {
-    return "Sum of Consecutive Even Numbers";
-}
+		cout << sum << endl;
+		cin >> x;
+	}
 
-int Problem1159::getNumber() {
-    return 1159;
+	return 0;
 }

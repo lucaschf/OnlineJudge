@@ -2,21 +2,18 @@
 // Created by lucas on 01/18/2021.
 //
 
-#include "Problem1933.h"
+#include <iostream>
 
-void Problem1933::solve() {
-    int card1;
-    int card2;
+using namespace std;
 
-    cin >> card1 >> card2;
+int main() {
+	int card1;
+	int card2;
 
-    cout << (card1 == card2 || card1 > card2 ? card1 : card2) << endl;
-}
+	cin >> card1 >> card2;
 
-string Problem1933::getName() {
-    return "Tri-du";
-}
+	cout << (card1 == card2 || card1 > card2 ? card1 : card2) << endl;
 
-int Problem1933::getNumber() {
-    return 1933;
+	return 0;
+
 }

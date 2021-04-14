@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1157.h"
+#include <iostream>
 
-void Problem1157::solve() {
+using namespace std;
+
+int main() {
     int n;
 
     cin >> n;
@@ -13,12 +15,6 @@ void Problem1157::solve() {
         if (n % i == 0)
             cout << i << endl;
     }
-}
 
-string Problem1157::getName() {
-    return "Divisors I";
-}
-
-int Problem1157::getNumber() {
-    return 1157;
+    return 0;
 }

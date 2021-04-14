@@ -3,9 +3,11 @@
 //
 
 #include <cmath>
-#include "Problem1011.h"
+#include <iostream>
 
-void Problem1011::solve() {
+using namespace std;
+
+int main() {
     const double pi = 3.14159;
     double radius;
 
@@ -13,12 +15,6 @@ void Problem1011::solve() {
 
     auto volume = (4.0 / 3.0) * pi * pow(radius, 3);
     printf("VOLUME = %1.3f\n", volume);
-}
-
-string Problem1011::getName() {
-    return "Sphere";
-}
-
-int Problem1011::getNumber() {
-    return 1011;
+    
+    return 0;
 }

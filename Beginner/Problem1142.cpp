@@ -2,9 +2,11 @@
 // Created by lucas on 01/17/2021.
 //
 
-#include "Problem1142.h"
+#include <iostream>
 
-void Problem1142::solve() {
+using namespace std;
+
+int main() {
     int n;
 
     cin >> n;
@@ -18,12 +20,6 @@ void Problem1142::solve() {
         printf("PUM\n");
         current++;
     }
-}
 
-string Problem1142::getName() {
-    return "PUM";
-}
-
-int Problem1142::getNumber() {
-    return 1142;
+    return 0;
 }

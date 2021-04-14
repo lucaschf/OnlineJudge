@@ -3,41 +3,37 @@
 //
 
 #include <iomanip>
-#include "Problem1188.h"
+#include <iostream>
 
-void Problem1188::solve() {
-    const int size = 12;
-    double arr[size][size];
-    char operation;
-    double result = 0;
-    int count = 0;
+using namespace std;
 
-    cin >> operation;
+int main() {
+	const int size = 12;
+	double arr[size][size];
+	char operation;
+	double result = 0;
+	int count = 0;
 
-    for (auto &i : arr) {
-        for (auto &j : i) {
-            cin >> j;
-        }
-    }
+	cin >> operation;
 
-    for (int i = size / 2; i < size; i++) {
-        for (int j = size - i; j < i; j++) {
-            result += arr[i][j];
-            count++;
-        }
-    }
+	for (auto& i : arr) {
+		for (auto& j : i) {
+			cin >> j;
+		}
+	}
 
-    if (operation == 'M') {
-        result /= count;
-    }
+	for (int i = size / 2; i < size; i++) {
+		for (int j = size - i; j < i; j++) {
+			result += arr[i][j];
+			count++;
+		}
+	}
 
-    cout << fixed << setprecision(1) << result << endl;
-}
+	if (operation == 'M') {
+		result /= count;
+	}
 
-string Problem1188::getName() {
-    return "Inferior Area";
-}
+	cout << fixed << setprecision(1) << result << endl;
 
-int Problem1188::getNumber() {
-    return 1188;
+	return 0;
 }

@@ -3,9 +3,11 @@
 //
 
 #include <cmath>
-#include "Problem1541.h"
+#include <iostream>
 
-void Problem1541::solve() {
+using namespace std;
+
+int main() {
     int a;
     int b;
     int c;
@@ -18,12 +20,6 @@ void Problem1541::solve() {
 
         cout << (int) sqrt(area) << endl;
     }
-}
 
-string Problem1541::getName() {
-    return "Building Houses";
-}
-
-int Problem1541::getNumber() {
-    return 1541;
+    return 0;
 }

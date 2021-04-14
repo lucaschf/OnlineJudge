@@ -2,9 +2,11 @@
 // Created by lucas on 01/16/2021.
 //
 
-#include "Problem1019.h"
+#include <iostream>
 
-void Problem1019::solve() {
+using namespace std;
+
+int main() {
     int seconds;
 
     cin >> seconds;
@@ -19,12 +21,6 @@ void Problem1019::solve() {
     }
 
     cout << hours << ":" << minutes << ":" << seconds << endl;
-}
-
-string Problem1019::getName() {
-    return "Time Conversion";
-}
-
-int Problem1019::getNumber() {
-    return 1019;
+    
+    return 0;
 }

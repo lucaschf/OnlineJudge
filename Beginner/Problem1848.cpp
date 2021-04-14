@@ -2,14 +2,16 @@
 // Created by lucas on 01/18/2021.
 //
 
-#include "Problem1848.h"
+#include <iostream>
 
-void Problem1848::solve() {
+using namespace std;
+
+int main() {
     const char opened_eye = '*';
     const string scream = "caw caw";
     const int eyes_count = 3;
     const int winners = 3;
-    const int eye_values[eyes_count] = {4, 2, 1};
+    const int eye_values[eyes_count] = { 4, 2, 1 };
 
     string action;
     int sum = 0;
@@ -29,12 +31,6 @@ void Problem1848::solve() {
             if (action[i] == opened_eye)
                 sum += eye_values[i];
     }
-}
 
-string Problem1848::getName() {
-    return "Counting Crow";
-}
-
-int Problem1848::getNumber() {
-    return 1848;
+    return 0;
 }

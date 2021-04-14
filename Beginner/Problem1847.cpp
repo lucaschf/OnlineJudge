@@ -2,9 +2,11 @@
 // Created by lucas on 01/18/2021.
 //
 
-#include "Problem1847.h"
+#include <iostream>
 
-void Problem1847::solve() {
+using namespace std;
+
+int main() {
     int first_day;
     int second_day;
     int third_day;
@@ -40,13 +42,7 @@ void Problem1847::solve() {
         }
     }
 
-    cout << (current_feeling == sad ? ":(" : ":)") << endl;
-}
-
-string Problem1847::getName() {
-    return "Welcome to the Winter!";
-}
-
-int Problem1847::getNumber() {
-    return 1847;
+    cout << (current_feeling == sad ? ":(" : ":)") << endl; 
+    
+    return 0;
 }

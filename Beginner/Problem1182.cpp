@@ -3,9 +3,11 @@
 //
 
 #include <iomanip>
-#include "Problem1182.h"
+#include <iostream>
 
-void Problem1182::solve() {
+using namespace std;
+
+int main() {
     const int size = 12;
     double arr[size][size];
     int column;
@@ -29,12 +31,6 @@ void Problem1182::solve() {
     }
 
     cout << fixed << setprecision(1) << result << endl;
-}
 
-string Problem1182::getName() {
-    return "Column in Array";
-}
-
-int Problem1182::getNumber() {
-    return 1182;
+    return 0;
 }

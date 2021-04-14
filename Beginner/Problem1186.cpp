@@ -3,41 +3,37 @@
 //
 
 #include <iomanip>
-#include "Problem1186.h"
+#include <iostream>
 
-void Problem1186::solve() {
-    const int size = 12;
-    double arr[size][size];
-    char operation;
-    double result = 0;
-    int count = 0;
+using namespace std;
 
-    cin >> operation;
+int main() {
+	const int size = 12;
+	double arr[size][size];
+	char operation;
+	double result = 0;
+	int count = 0;
 
-    for (auto &i : arr) {
-        for (auto &j : i) {
-            cin >> j;
-        }
-    }
+	cin >> operation;
 
-    for (int i = 0; i < size; i++) {
-        for (int j = size - 1; j > size - 1 - i; j--) {
-            result += arr[i][j];
-            count++;
-        }
-    }
+	for (auto& i : arr) {
+		for (auto& j : i) {
+			cin >> j;
+		}
+	}
 
-    if (operation == 'M') {
-        result /= count;
-    }
+	for (int i = 0; i < size; i++) {
+		for (int j = size - 1; j > size - 1 - i; j--) {
+			result += arr[i][j];
+			count++;
+		}
+	}
 
-    cout << fixed << setprecision(1) << result << endl;
-}
+	if (operation == 'M') {
+		result /= count;
+	}
 
-string Problem1186::getName() {
-    return "Below the Secundary Diagonal";
-}
+	cout << fixed << setprecision(1) << result << endl;
 
-int Problem1186::getNumber() {
-    return 1186;
+	return 0;
 }

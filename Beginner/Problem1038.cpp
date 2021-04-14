@@ -2,31 +2,27 @@
 // Created by lucas on 01/16/2021.
 //
 
-#include "Problem1038.h"
 #include <map>
+#include <iostream>
 
-void Problem1038::solve() {
-    int code;
-    int quantity;
+using namespace std;
 
-    cin >> code;
-    cin >> quantity;
+int main() {
+	int code;
+	int quantity;
 
-    map<int, double> products = {
-            {1, 4},
-            {2, 4.5},
-            {3, 5},
-            {4, 2},
-            {5, 1.5},
-    };
+	cin >> code;
+	cin >> quantity;
 
-    printf("Total: R$ %1.2f\n", products.find(code)->second * quantity);
-}
+	map<int, double> products = {
+			{1, 4},
+			{2, 4.5},
+			{3, 5},
+			{4, 2},
+			{5, 1.5},
+	};
 
-string Problem1038::getName() {
-    return "Snack";
-}
+	printf("Total: R$ %1.2f\n", products.find(code)->second * quantity);
 
-int Problem1038::getNumber() {
-    return 1038;
+	return 0;
 }

@@ -2,25 +2,21 @@
 // Created by lucas on 01/18/2021.
 //
 
-#include "Problem1759.h"
+#include <iostream>
 
-void Problem1759::solve() {
-    int count;
+using namespace std;
 
-    cin >> count;
+int main() {
+	int count;
 
-    for (int i = 1; i <= count; i++) {
-        cout << "Ho";
-        cout << (i < count ? " " : "!");
-    }
+	cin >> count;
 
-    cout << endl;
-}
+	for (int i = 1; i <= count; i++) {
+		cout << "Ho";
+		cout << (i < count ? " " : "!");
+	}
 
-string Problem1759::getName() {
-    return "Ho Ho Ho";
-}
+	cout << endl;
 
-int Problem1759::getNumber() {
-    return 1759;
+	return 0;
 }

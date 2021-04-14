@@ -2,9 +2,11 @@
 // Created by lucas on 01/16/2021.
 //
 
-#include "Problem1012.h"
+#include <iostream>
 
-void Problem1012::solve() {
+using namespace std;
+
+int main() {
     const double pi = 3.14159;
 
     double a;
@@ -20,12 +22,6 @@ void Problem1012::solve() {
     printf("TRAPEZIO: %1.3f\n", c * ((a + b) / 2));
     printf("QUADRADO: %1.3f\n", b * b);
     printf("RETANGULO: %1.3f\n", a * b);
-}
 
-string Problem1012::getName() {
-    return "Area";
-}
-
-int Problem1012::getNumber() {
-    return 1012;
+    return 0;
 }
