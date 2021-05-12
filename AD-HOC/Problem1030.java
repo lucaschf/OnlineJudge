@@ -7,11 +7,12 @@ public class Main {
         var scan = new Scanner(System.in);
         var testCases = scan.nextInt();
 
-        for (var index = 1; index <= testCases; index++) {
-            var peopleInCircle = scan.nextInt();
-            var salt = scan.nextInt();
-
-            System.out.printf("Case %d: %d%n", index, josephus(peopleInCircle, salt));
+        for (var i = 1; i <= testCases; i++) {
+            System.out.printf(
+                    "Case %d: %d%n",
+                    i,
+                    josephus(scan.nextInt(), scan.nextInt())
+            );
         }
 
         scan.close();
